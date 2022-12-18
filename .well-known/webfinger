@@ -1,0 +1,23 @@
+{
+  "subject": "acct:tay@tech.lgbt",
+  "aliases": [
+    "https://tech.lgbt/@tay",
+    "https://tech.lgbt/users/tay"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://tech.lgbt/@tay"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://tech.lgbt/users/tay"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://tech.lgbt/authorize_interaction?uri={uri}"
+    }
+  ]
+}
