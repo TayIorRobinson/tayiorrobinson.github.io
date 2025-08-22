@@ -1,0 +1,117 @@
+@mixin fill {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.window {
+    position: fixed;
+    width: 80vw;
+    height: 600px;
+    top: 100px;
+    left: 10vw;
+
+    padding:4px;
+    display: grid;
+    padding-top: 0px;
+    grid-template-columns: 1fr 95px;
+    grid-template-rows: 0px 16px 1fr;
+    grid-template-areas: 
+        ".        controls"
+        "titlebar controls"
+        "client   client";
+    row-gap: 4px;
+    background: #3d9af746;
+    background-image: url(./reflection.png);
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    border-radius: 6px;
+    border: 1px solid #ffffffb7;
+    --window-shadow: 0px 0px 7px 0px #000000;
+    box-shadow: 
+        0px 0px 0px 1px #03070BC6,
+        var(--window-shadow);
+    
+    color: #434e54;
+    &.focused {
+        border-bottom-color: #2cd3fe;
+        border-right-color: #2cd3fe;
+        --window-shadow: 1px 1px 11px 0px #000000;
+        color: #000;
+    }
+    
+    > .controls {
+        grid-area: controls;
+    }
+    > .titlebar {
+        grid-area: titlebar;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding-inline: 2px;
+        position: relative;
+        > .icon {
+            z-index: 2;
+        }
+        > .caption {
+            z-index: 1;
+            font-size: 12.5px;
+            margin-top: -2px;
+
+            position: relative;
+            &:before {
+                content: " ";
+                
+                left: -15px;
+                top: -3px;
+                width: 100%;
+                position: absolute;
+                z-index: -1;
+
+                border-image-source: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='100'><path fill='url(%23a)' d='M0 0h200v100H0z'/><defs><radialGradient id='a'><stop offset='0.1' stop-color='%23fff' stop-opacity='.7'/><stop offset='0.6' stop-color='%23fff' stop-opacity='.2'/><stop offset='1' stop-color='%23fff' stop-opacity='0'/></radialGradient></defs></svg>");
+                border-image-slice: 49 99 fill;
+                border-image-repeat: stretch;
+                border-image-width: auto 100px;
+                border-block-width: 12.5px;
+                border-inline-width: 15px;
+                border-style: solid;
+
+            }
+        }
+    }
+    > .clientarea {
+        @include fill;
+        grid-area: client;
+        .panelborder {
+            @include fill;
+            margin: 1px;
+            box-shadow: 0 0 0 1px #ffffff8c;
+            border-radius: 2px;
+            border: 1px solid #03070b98;
+            .panel {
+                background: #fff;
+            }
+        }
+    }
+
+}
+@keyframes move {
+    from {
+        left: 100px;
+    }
+    to {
+        left: 100vw;
+    }
+}
+body {
+    background-image: url(./maria-vojtovicova-SPvJPDXEmqA-unsplash.jpg);
+    // background-image: linear-gradient(to right, black 50%, white 50%);
+    background: white;
+    // background: black;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
