@@ -3,15 +3,16 @@
   "name": "robins.one",
   "source": "src/index.html",
   "scripts": {
-    "dev": "parcel",
-    "build": "parcel build"
-  },
-  "devDependencies": {
-    "@parcel/transformer-sass": "2.15.4",
-    "@parcel/config-default": "2.15.4",
-    "@parcel/core": "2.15.4",
-    "parcel": "2.15.4"
+    "dev": "npm exec nodemon -- -e \"tsx\" -x \"npm exec @11ty/eleventy -- --serve\"",
+    "build": "npm exec @11ty/eleventy"
   },
   "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "browserslist": "^4.28.1",
+    "jsxxg": "file:xxgen/jsxxg",
+    "lightningcss": "^1.31.0",
+    "nodemon": "^3.1.11",
+    "sass": "^1.97.2",
+    "xxgen": "file:xxgen/xxgen"
   }
 }

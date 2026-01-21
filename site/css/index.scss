@@ -1,0 +1,69 @@
+@use "./util.scss";
+@use "./window.scss";
+@use "./hero.scss";
+
+
+@function bgGradient($color, $size, $x, $y, $color2: transparent) {
+  @return repeating-radial-gradient(farthest-corner at calc(50% - $x) calc(50% - $y), $color, $color2 $size, $color ($size * 2));
+}
+
+body {
+    background-image:
+        url('data:image/svg+xml;utf8,<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><rect width="98" height="98" fill="white" fill-opacity="0.9"/><rect width="100" height="100" fill="white" fill-opacity="0.4"/></svg>'),
+        bgGradient(#ff0320c6, 900px, 1291px, 928px),
+        bgGradient(#F3035080, 723px, 863px, 825px),
+        bgGradient(#9300b8c6, 598px, 844px, 944px),
+        bgGradient(#D940FF, 2028px, 370px, 153px, #490369);
+    // background-image: url("/assets/img36.jpg");
+    // background: white;
+    // background: black;
+    background-size: 100px, cover, cover cover, cover;
+    background-position: center;
+    background-attachment: fixed;
+    // background-size: cover;
+
+    
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: util.$grotesk;
+}
+
+#root {
+    display: grid;
+    grid-template-columns: 1fr min(1022px, 100%) 1fr;
+    max-width: 100%;
+    gap: 12px;
+    > .content-row {
+        grid-column: 2 / 3;
+        padding: 4px;
+    }
+}
+
+.brand {
+    margin-block: 0.75rem;
+    margin-inline: 0.75rem;
+    h1 {
+        > img {
+            height: 6.06rem;
+        }
+        margin: 0;
+        line-height: 0;
+    }
+    > .tagline {
+        margin: 0;
+        font-size: 1.95rem;
+        line-height: 1em;
+        margin-left: 0.12rem;
+        > .ip {
+            background-image: linear-gradient(to bottom, #BD1693, #570A44);
+            background-clip: text;
+            color: transparent;
+            font-weight: 500;
+            -webkit-text-stroke: 1px #FFFFFF4A;
+            transform: translateY(1px);
+        }
+
+    }
+}
+

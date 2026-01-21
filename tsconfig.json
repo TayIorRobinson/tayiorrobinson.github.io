@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "preserve",
+        "jsx": "react",
+        "jsxFactory": "jsx",
+        "jsxFragmentFactory": "Fragment",
+        "noEmit": true,
+        "allowImportingTsExtensions": true
+    },
+    "include": ["./**/*.ts", "./**/*.tsx"]
+}

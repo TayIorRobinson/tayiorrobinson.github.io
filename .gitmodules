@@ -1,0 +1,3 @@
+[submodule "xxgen"]
+	path = xxgen
+	url = https://git.boxfox.es/fox/xxgen
