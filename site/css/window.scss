@@ -26,7 +26,8 @@
     
     font-family: 'Segoe UI', sans-serif;
     color: #434e54;
-    &[data-focused] {
+
+    &:hover, &:focus-within {
         border-bottom-color: #2cd3fe;
         border-right-color: #2cd3fe;
         --window-shadow: 1px 1px 11px 0px #000000;

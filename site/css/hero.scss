@@ -43,9 +43,6 @@
             i {
                 font-family: util.$mono;
             }
-            a {
-                color: inherit;
-            }
         }   
     }
 }
@@ -85,6 +82,13 @@
         background: linear-gradient(to bottom, #0891b2, #075985);
         border: 1px solid #317198;
         color: #eee;
+    }
+
+    &:active {
+        background: linear-gradient(to bottom, #0369A1, #075985);
+        border: 1px solid #046092;
+        color: #eee;
+        box-shadow: 0px 2px 3px -1px #00000080, 0px 1px 2px -1px #00000040;
     }
 
 }

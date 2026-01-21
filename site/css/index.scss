@@ -67,3 +67,18 @@ body {
     }
 }
 
+
+
+.prose {
+    padding-inline: 0.75rem;
+    hr {
+        margin-inline: -0.75rem;
+    }
+}
+
+hr {
+    border: 1px solid #ccc;
+}
+a {
+    color: inherit;
+}
