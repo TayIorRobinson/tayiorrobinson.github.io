@@ -18,13 +18,35 @@ export default function (data) {
                     <h2>Hello!</h2>
                     <hr/>
                     <p>
-                        I'm Taylor, and I'm fox on the internet. 
-                        This is a website about a website for my fursona, Taylor <i>Robinson</i>. 
-                        <small>(yes, both I and my fursona are called Taylor, but I am not Taylor Robinson. You are not the first person to be confused by this <span class='mono'>:')</span></small> ). 
+                        I'm Taylor (they/them), and I'm fox on the internet. I'm a web developer, with experience in IT and network engineering, but I'm just a general nerd. 
+                        I've been a furry since 2017 and above you can see my fursona, the Internet Vulpine.
+                        What is an Internet Vulpine you ask? Well, it's a vulpine creature (also known as 'an fox') that lives on the internet. Got it? <small>(what do you mean 'no'?)</small>
                         <br/>
-                        If you want to learn more about them, there's <a href="/fursona">a whole page dedicated to their design</a>.
+                        If you want to learn more about them, check out <a href="/fursona">/fursona</a>.
                     </p>
 
+                    
+                </div>
+            </Window>
+        </div>
+         <div class="content-row">
+            <Window focused titlebar={<WindowTitlebar iconSrc="/assets/contact.png" caption="Taylor - Contacts" />}>
+                <div class="prose">
+                    <h2>Hello!</h2>
+                    <hr/>
+                    <label class="input">
+                        foo
+                        <input type="text" readonly></input>
+                    </label>
+                    <p>
+                        I'm Taylor (they/them), and I'm fox on the internet. I'm a web developer, with experience in IT and network engineering, but I'm just a general nerd. 
+                        I've been a furry since 2017 and above you can see my fursona, the Internet Vulpine.
+                        What is an Internet Vulpine you ask? Well, it's a vulpine creature (also known as 'an fox') that lives on the internet. Got it? <small>(what do you mean 'no'?)</small>
+                        <br/>
+                        If you want to learn more about them, check out <a href="/fursona">/fursona</a>.
+                    </p>
+
+                    
                     
                 </div>
             </Window>

@@ -1,15 +1,25 @@
 @use "./util.scss";
 @use "./window.scss";
 @use "./hero.scss";
+@use "./fursona.scss";
 
 
 @function bgGradient($color, $size, $x, $y, $color2: transparent) {
   @return repeating-radial-gradient(farthest-corner at calc(50% - $x) calc(50% - $y), $color, $color2 $size, $color ($size * 2));
 }
 
+:root {
+    color-scheme: light;
+}
+
 body {
+        
+    
     background-image:
-        url('data:image/svg+xml;utf8,<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><rect width="98" height="98" fill="white" fill-opacity="0.9"/><rect width="100" height="100" fill="white" fill-opacity="0.4"/></svg>'),
+        light-dark(
+            url('data:image/svg+xml;utf8,<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><rect width="98" height="98" fill="white" fill-opacity="0.9"/><rect width="100" height="100" fill="white" fill-opacity="0.4"/></svg>'),
+            url('data:image/svg+xml;utf8,<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><rect width="98" height="98" fill="black" fill-opacity="0.7"/><rect width="100" height="100" fill="black" fill-opacity="0.7"/></svg>')
+        ),
         bgGradient(#ff0320c6, 900px, 1291px, 928px),
         bgGradient(#F3035080, 723px, 863px, 825px),
         bgGradient(#9300b8c6, 598px, 844px, 944px),
@@ -44,15 +54,18 @@ body {
     margin-block: 0.75rem;
     margin-inline: 0.75rem;
     h1 {
-        > img {
-            height: 6.06rem;
-        }
+        font-size: 4rem;
+        line-height: 1;
         margin: 0;
-        line-height: 0;
+        margin-left: -0.125rem;
+        .mono {
+            margin-right: 0.05em;
+            letter-spacing: -0.06em;
+        }
     }
     > .tagline {
         margin: 0;
-        font-size: 1.95rem;
+        font-size: 1.9rem;
         line-height: 1em;
         margin-left: 0.12rem;
         > .ip {
@@ -77,8 +90,43 @@ body {
 }
 
 hr {
-    border: 1px solid #ccc;
+    border: 1px solid light-dark(#ccc, #333);
 }
 a {
     color: inherit;
+}
+
+area {
+    cursor: pointer;
+}
+
+.input {
+    height: 1.375rem;
+    padding-inline: 5px;
+    border-radius: 2px;
+    font-size: 14px;
+    overflow-x: auto;
+    border: 1px solid #E2E3EA;
+    border-top-color: #ABADB3;
+    border-bottom-color: #E3E9EF;
+    display: flex;
+    &:hover {
+        border-color: #C5DAED;
+        border-top-color: #5794BF;
+        border-bottom-color: #BBD5E3;
+    }
+    &:focus-within {
+        border-color: #B5CFE7;
+        border-top-color: #3D7BAD;
+        border-bottom-color: #B7D9ED;
+    }
+    input {
+        background: transparent;
+        border: 0px;
+        flex-grow: 1;
+        padding: 0;
+        &:focus {
+            outline: none;
+        }
+    }
 }

@@ -12,7 +12,7 @@
     grid-template-rows: 0px 1fr;
     grid-template-areas: "." "client";
     row-gap: 4px;
-    background: #A30D8646;
+    background: light-dark(#A30D8646, #e65dca8d);
     background-image: url("/assets/reflection.png");
     background-attachment: fixed;
     background-size: cover;
@@ -60,6 +60,8 @@
         position: relative;
         > .icon {
             z-index: 2;
+            image-rendering: pixelated;
+            image-rendering: -moz-crisp-edges;
         }
         > .caption {
             z-index: 1;
@@ -98,8 +100,8 @@
             border-radius: 2px;
             border: 1px solid #03070b98;
             .panel {
-                background: #fff;
-                color: #000;
+                background: light-dark(white, black);
+                color: light-dark(black, white);
             }
         }
     }

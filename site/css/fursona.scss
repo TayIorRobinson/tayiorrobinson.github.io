@@ -1,0 +1,15 @@
+.fursonaPage {
+    .ref-image {
+        width: 100%;
+        height: 100%;
+    }
+    .prose {
+        background-image: url("/assets/paw.svg");
+        background-size: auto 4em;
+        background-position: top 0.25rem right 1.5rem;
+        background-repeat: no-repeat;
+        h1 {
+            margin-bottom: 0;
+        }
+    }
+}
