@@ -36,15 +36,8 @@ export default function (data) {
                     <hr/>
                     <label class="input">
                         foo
-                        <input type="text" readonly></input>
+                        <input type="text" readonly value="bar"></input>
                     </label>
-                    <p>
-                        I'm Taylor (they/them), and I'm fox on the internet. I'm a web developer, with experience in IT and network engineering, but I'm just a general nerd. 
-                        I've been a furry since 2017 and above you can see my fursona, the Internet Vulpine.
-                        What is an Internet Vulpine you ask? Well, it's a vulpine creature (also known as 'an fox') that lives on the internet. Got it? <small>(what do you mean 'no'?)</small>
-                        <br/>
-                        If you want to learn more about them, check out <a href="/fursona">/fursona</a>.
-                    </p>
 
                     
                     

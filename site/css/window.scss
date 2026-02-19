@@ -1,115 +1,111 @@
 @use "./util.scss";
 
-
-
-
 .window {
-    padding:4px;
-    display: grid;
-    padding-top: 0px;
-    
-    grid-template-columns: 1fr;
-    grid-template-rows: 0px 1fr;
-    grid-template-areas: "." "client";
-    row-gap: 4px;
-    background: light-dark(#A30D8646, #e65dca8d);
-    background-image: url("/assets/reflection.png");
-    background-attachment: fixed;
-    background-size: cover;
-    backdrop-filter: blur(3px);
-    border-radius: 6px;
-    border: 1px solid #ffffffb7;
-    --window-shadow: 0px 0px 7px 0px #000000;
-    box-shadow: 
-        0px 0px 0px 1px #03070BC6,
-        var(--window-shadow);
-    
-    font-family: 'Segoe UI', sans-serif;
-    color: #434e54;
+  padding: 4px;
+  display: grid;
+  padding-top: 0px;
 
-    &:hover, &:focus-within {
-        border-bottom-color: #2cd3fe;
-        border-right-color: #2cd3fe;
-        --window-shadow: 1px 1px 11px 0px #000000;
-        color: #000;
-    }
+  grid-template-columns: 1fr;
+  grid-template-rows: 0px 1fr;
+  grid-template-areas: "." "client";
+  row-gap: 4px;
+  background: light-dark(#a30d8646, #e65dca8d);
+  background-image: url("/assets/reflection.png");
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(3px);
+  border-radius: 6px;
+  border: 1px solid #ffffffb7;
+  --window-shadow: 0px 0px 7px 0px #000000;
+  box-shadow:
+    0px 0px 0px 1px #03070bc6,
+    var(--window-shadow);
 
-    &[data-closed] {
-        animation: close .1s ease-in-out;
-        transform-origin: bottom left;
-    }
-    
-    &[data-has-titlebar] {
-        grid-template-rows: 0px 16px 1fr;
-        grid-template-columns: 1fr 95px;
-        grid-template-areas: 
-            ".        controls"
-            "titlebar controls"
-            "client   client";
-    }
+  font-family: "Segoe UI", sans-serif;
+  color: #434e54;
 
-    > .controls {
-        grid-area: controls;
-    }
-    > .titlebar {
-        grid-area: titlebar;
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        padding-inline: 2px;
-        position: relative;
-        > .icon {
-            z-index: 2;
-            image-rendering: pixelated;
-            image-rendering: -moz-crisp-edges;
-        }
-        > .caption {
-            z-index: 1;
-            font-size: 12px;
-            margin: 0;
-            margin-top: -2px;
-            font-weight: 450;
-            position: relative;
-            &:before {
-                content: " ";
-                
-                left: -15px;
-                top: -3px;
-                width: 100%;
-                position: absolute;
-                z-index: -1;
+  &:hover,
+  &:focus-within {
+    border-bottom-color: #2cd3fe;
+    border-right-color: #2cd3fe;
+    --window-shadow: 1px 1px 11px 0px #000000;
+    color: #000;
+  }
 
-                border-image-source: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='100'><path fill='url(%23a)' d='M0 0h200v100H0z'/><defs><radialGradient id='a'><stop offset='0.1' stop-color='%23fff' stop-opacity='.7'/><stop offset='0.6' stop-color='%23fff' stop-opacity='.2'/><stop offset='1' stop-color='%23fff' stop-opacity='0'/></radialGradient></defs></svg>");
-                border-image-slice: 49 99 fill;
-                border-image-repeat: stretch;
-                border-image-width: auto 100px;
-                border-block-width: 12.5px;
-                border-inline-width: 15px;
-                border-style: solid;
+  &[data-closed] {
+    animation: close 0.1s ease-in-out;
+    transform-origin: bottom left;
+  }
 
-            }
-        }
-    }
-    > .clientarea {
-        @include util.fill;
-        grid-area: client;
-        .panelborder {
-            @include util.fill;
-            margin: 1px;
-            box-shadow: 0 0 0 1px #ffffff8c;
-            border-radius: 2px;
-            border: 1px solid #03070b98;
-            .panel {
-                background: light-dark(white, black);
-                color: light-dark(black, white);
-            }
-        }
-    }
+  &[data-has-titlebar] {
+    grid-template-rows: 0px 16px 1fr;
+    grid-template-columns: 1fr 95px;
+    grid-template-areas:
+      ".        controls"
+      "titlebar controls"
+      "client   client";
+  }
 
+  > .controls {
+    grid-area: controls;
+  }
+  > .titlebar {
+    grid-area: titlebar;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-inline: 2px;
+    position: relative;
+    > .icon {
+      z-index: 2;
+      image-rendering: pixelated;
+      image-rendering: -moz-crisp-edges;
+    }
+    > .caption {
+      z-index: 1;
+      font-size: 12px;
+      margin: 0;
+      margin-top: -2px;
+      font-weight: 450;
+      position: relative;
+      &:before {
+        content: " ";
+
+        left: -15px;
+        top: -3px;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+
+        border-image-source: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='100'><path fill='url(%23a)' d='M0 0h200v100H0z'/><defs><radialGradient id='a'><stop offset='0.1' stop-color='%23fff' stop-opacity='.7'/><stop offset='0.6' stop-color='%23fff' stop-opacity='.2'/><stop offset='1' stop-color='%23fff' stop-opacity='0'/></radialGradient></defs></svg>");
+        border-image-slice: 49 99 fill;
+        border-image-repeat: stretch;
+        border-image-width: auto 100px;
+        border-block-width: 12.5px;
+        border-inline-width: 15px;
+        border-style: solid;
+      }
+    }
+  }
+  > .clientarea {
+    @include util.fill;
+    grid-area: client;
+    .panelborder {
+      @include util.fill;
+      margin: 1px;
+      box-shadow: 0 0 0 1px #ffffff8c;
+      border-radius: 2px;
+      border: 1px solid #03070b98;
+      .panel {
+        background: light-dark(white, #10010c);
+        color: light-dark(black, white);
+      }
+    }
+  }
 }
 @keyframes close {
-    to {
-        transform: scale(0.8) skew(-2.5deg, -2.5deg);
-        opacity: 0;
-    }
+  to {
+    transform: scale(0.8) skew(-2.5deg, -2.5deg);
+    opacity: 0;
+  }
 }
