@@ -38,6 +38,8 @@ export default function (data) {
                         foo
                         <input type="text" readonly value="bar"></input>
                     </label>
+                    
+                    <div class="sheenTest"></div>
 
                     
                     

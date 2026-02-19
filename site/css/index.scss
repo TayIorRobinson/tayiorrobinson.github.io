@@ -137,3 +137,28 @@ area {
     }
   }
 }
+
+.sheenTest {
+  width: 128px;
+  height: 128px;
+  background-color: blue;
+  display: block;
+  margin: 16px;
+
+  background-image:
+    radial-gradient(
+      farthest-corner at top,
+      #00000000 0%,
+      #00000028 40%,
+      #00000050 41%,
+      #00000028 65%,
+      #00000000 100%
+    ),
+    url("/assets/img36.jpg");
+  border-radius: 17.5%;
+
+  background-size:
+    250% 100%,
+    cover;
+  background-position: center;
+}
