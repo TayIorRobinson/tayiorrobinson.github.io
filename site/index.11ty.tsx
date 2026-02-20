@@ -3,6 +3,7 @@ import { MainNav } from "./components/mainNav.tsx";
 import { PageTemplate } from "./components/pageTemplate.tsx";
 import { HeroSection } from "./components/sections/hero.tsx";
 import { Window, WindowTitlebar } from "./components/window.tsx";
+import { ContactsSection } from "./sections/contacts.tsx";
 
 
 
@@ -29,22 +30,6 @@ export default function (data) {
                 </div>
             </Window>
         </div>
-         <div class="content-row">
-            <Window focused titlebar={<WindowTitlebar iconSrc="/assets/contact.png" caption="Taylor - Contacts" />}>
-                <div class="prose">
-                    <h2>Hello!</h2>
-                    <hr/>
-                    <label class="input">
-                        foo
-                        <input type="text" readonly value="bar"></input>
-                    </label>
-                    
-                    <div class="sheenTest"></div>
-
-                    
-                    
-                </div>
-            </Window>
-        </div>
+         <ContactsSection/>
     </PageTemplate>
 }
