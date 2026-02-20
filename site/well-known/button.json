@@ -1,0 +1,16 @@
+{
+  "$schema": "https://codeberg.org/LunarEclipse/well-known-button/raw/branch/main/drafts/button-2024-06.schema.json",
+  "default": "eth0fox",
+  "buttons": [
+    {
+        "id": "eth0fox",
+        "groupId": "eth0fox",
+        "uri": "https://eth0fox.net/assets/88x31/eth0fox.png",
+        "alt": "Button showing an anthropomorphic fox character smiling, with the text 'eth0fox' written in a black monospace font, with a purple background with a feint grid pattern",
+        "animations": "none",
+        "colorScheme": "light",
+        "contrast": "standard",
+        "link": "https://eth0fox.net/"
+    }
+  ]
+}
