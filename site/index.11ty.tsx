@@ -4,6 +4,7 @@ import { PageTemplate } from "./components/pageTemplate.tsx";
 import { HeroSection } from "./components/sections/hero.tsx";
 import { Window, WindowTitlebar } from "./components/window.tsx";
 import { ContactsSection } from "./sections/contacts.tsx";
+import { LinksSection } from "./sections/links.tsx";
 
 
 
@@ -30,6 +31,7 @@ export default function (data) {
                 </div>
             </Window>
         </div>
-         <ContactsSection/>
+        <ContactsSection/>
+        <LinksSection />
     </PageTemplate>
 }
