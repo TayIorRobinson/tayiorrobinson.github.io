@@ -2,7 +2,7 @@ import { Fragment, jsx, JSXChildren } from "jsxxg";
 import { target } from "jsxxg/data";
 
 
-export const LinkBtn = ({ href = "/", img = "/assets/notepad.png", children = "Link", rel = "noopener", target = "_blank", title }: { 
+export const LinkBtn = ({ href = "/", img = "/assets/icons/notepad.png", children = "Link", rel = "noopener", target = "_blank", title }: { 
     href: string;
     img: string;
     children: JSXChildren;
