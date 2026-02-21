@@ -244,4 +244,8 @@ $px: 1em/12;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-block: 0.675em;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast;
 }
