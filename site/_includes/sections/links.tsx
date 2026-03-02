@@ -68,6 +68,7 @@ export const LinksSection = () =>
                             { img: "sneexy.svg", link: "https://sneexy.synth.download/", title: "ruben"},
                             { img: "pivotman.png", link: "https://pivotman319-owo.github.io/", title: "pivotman319", rel: "acquaintance"},
                             { img: "atapi.gif", link: "https://atapi.space/", title: "atapi"},
+                            { img: "j4.avif", link: "https://j4.lc", title: "J4", rel: "acquaintance"},
                         ]} />
                 </div>
                 <h2>Miscelaneous badges</h2>

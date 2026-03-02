@@ -8,6 +8,7 @@
   box-shadow: 0 0 0 1px transparent;
   border-radius: 3px;
   font-size: 18px;
+  &.lg { font-size: 22px; }
   display: block;
   width: fit-content;
 
@@ -17,13 +18,25 @@
     > img {
       width: util.$px * 16;
       height: util.$px * 16;
+      &.glyph {
+        width: 20px;
+        height: 20px;
+        object-fit: none;
+        object-position: 0 0;
+        margin-top: -3px;
+      }
     }
     > .text {
-      margin-top: -(util.$px);
-      margin-bottom: util.$px;
-      padding-inline: util.$px * 5;
+      padding-inline: util.$px * 3;
     }
+}
+&.hasImg > .content > .text { 
+    margin-top: -(util.$px);
+    margin-bottom: util.$px;
+    padding-inline: util.$px * 5;
   }
+
+
 
   &:hover:not(:active) {
     background-image: linear-gradient(
@@ -35,6 +48,9 @@
     );
     border: 1px solid #ffffff7d;
     box-shadow: 0 0 0 1px #0000004d;
+    img.glyph {
+        object-position: 0 -20px;
+    }
   }
   &:active {
     background: light-dark(#00000012, black);
@@ -48,6 +64,9 @@
       > .text {
         opacity: 80%;
       }
+      img.glyph {
+            object-position: 0 -40px;
+        }
     }
   }
 }
