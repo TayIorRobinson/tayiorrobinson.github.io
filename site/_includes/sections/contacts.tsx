@@ -10,7 +10,7 @@ export const ContactsSection = () =>
 
                     <ul class="linkBtns">
                         <li>
-                            <LinkBtn rel="noopener me" href="https://tech.lgbt/@tay" img="/assets/icons/logos/mastodon-48px.png" title="Mastodon/Fediverse/ActivityPub">
+                            <LinkBtn rel="noopener me" href="https://tech.lgbt/@tay" img="/assets/icons/logos/mastodon-48px.webp" title="Mastodon/Fediverse/ActivityPub">
                                 @tay@tech.lgbt
                             </LinkBtn>
                         </li>
@@ -35,7 +35,7 @@ export const ContactsSection = () =>
                             </LinkBtn>
                         </li>
                         <li>
-                            <LinkBtn rel="noopener me" href="https://last.fm/user/u1f98a" img="/assets/icons/logos/lastfm-48px.png" title="Last.fm">
+                            <LinkBtn rel="noopener me" href="https://last.fm/user/u1f98a" img="/assets/icons/logos/lastfm-48px.webp" title="Last.fm">
                                 u1f98a
                             </LinkBtn>
                         </li>
@@ -58,7 +58,7 @@ export const ContactsSection = () =>
                             </LinkBtn>
                         </li>
                         <li>
-                            <LinkBtn rel="noopener me" href="mailto:u@1f98a.net" img="/assets/icons/mail-48px.png" title="Email">
+                            <LinkBtn rel="noopener me" href="mailto:u@1f98a.net" img="/assets/icons/mail-48px.webp" title="Email">
                                 fox@boxfox.es
                             </LinkBtn>
                         </li>                        

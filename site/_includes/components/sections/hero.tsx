@@ -12,7 +12,7 @@ export const HeroSection = () =>
                         <area shape="poly" coords="745,190,731,172,733,167,747,166,758,169,765,174,766,177" onclick="(new Audio('/assets/boop.ogg')).play()" />
                     </map>
                     
-                    <img usemap="#heroBooper" src="/assets/hero-bg.png" width={1000} height={425} alt="An image of an anthropomorphic fox character waving at you, in front of an abstract aurora background." />
+                    <img usemap="#heroBooper" src="/assets/hero-bg.webp" width={1000} height={425} alt="An image of an anthropomorphic fox character waving at you, in front of an abstract aurora background." />
                     
                     <div class="content">
                         <div class="title" id="hero-title">

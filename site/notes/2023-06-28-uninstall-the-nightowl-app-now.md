@@ -11,7 +11,7 @@ title: Uninstall the Nightowl App, now.
 
 ### Edit
 It seems that Apple has now revoked the app's signing certificate, meaning that the application can no longer be launched.
-![image](https://github.com/TayIorRobinson/notes/assets/74316107/6dd3f310-04f8-44bd-9a84-d81c571f51b0)
+![image](https://github.com/eth0fox/notes/assets/74316107/6dd3f310-04f8-44bd-9a84-d81c571f51b0)
 
 
 

@@ -15,7 +15,7 @@ Taylor's website
   - [ ] also add the tayv2 art there too 
   - [ ] finish the ref
 - [x] make the 'free download' button on the home page do something funny
-- [ ] optimise all the images
+- [x] optimise all the images
 - [ ] publish the thing
   - [ ] redirect robins.one/notes
   - [ ] redirect taylor.robins.one

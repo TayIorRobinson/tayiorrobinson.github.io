@@ -56,18 +56,18 @@ export const LinksSection = () =>
                     <p>Here's the badges of some people I think are cool :D - feel free to steal my own badge for your own site, or if I know you, and I haven't got your badge, let me know!</p>
                     <div class='badges'>
                         <EightyEightThirtyOnes badges={[
-                            { img: "eth0fox.png", link: "https://eth0fox.net", title: "it's me! feel free to steal this one for your own sites!", rel: "me" },
+                            { img: "eth0fox.webp", link: "https://eth0fox.net", title: "it's me! feel free to steal this one for your own sites!", rel: "me" },
                             { img: "orion.webp", link: "https://moonclaw.eu", title: "Orion Moonclaw", rel: "friend" },
-                            { img: "spotlight.gif", link: "https://joscomputing.space/", title: "Spotlight" },
-                            { img: "yosh.png", link: "https://www.unix.dog/~yosh/", title: "yosh", rel: "friend" },
+                            { img: "spotlight.webp", link: "https://joscomputing.space/", title: "Spotlight" },
+                            { img: "yosh.webp", link: "https://www.unix.dog/~yosh/", title: "yosh", rel: "friend" },
                             { img: "noel.webp", link: "https://00ffff.eu", title: "Noel", rel: "friend" },
-                            { img: "rail.png", link: "https://flufftech.net/", title: "rail" },
-                            { img: "theresnotime.png", link: "https://www.theresnotime.co.uk/", title: "TheresNoTime"},
-                            { img: "mineboom.gif", link: "https://mineboom.neocities.org/", title: "MineBoom", rel: "friend" },
-                            { img: "ryfox.png", link: "https://ry.cd-rom.net/", title: "ryfox"},
+                            { img: "rail.webp", link: "https://flufftech.net/", title: "rail" },
+                            { img: "theresnotime.webp", link: "https://www.theresnotime.co.uk/", title: "TheresNoTime"},
+                            { img: "mineboom.webp", link: "https://mineboom.neocities.org/", title: "MineBoom", rel: "friend" },
+                            { img: "ryfox.webp", link: "https://ry.cd-rom.net/", title: "ryfox"},
                             { img: "sneexy.svg", link: "https://sneexy.synth.download/", title: "ruben"},
-                            { img: "pivotman.png", link: "https://pivotman319-owo.github.io/", title: "pivotman319", rel: "acquaintance"},
-                            { img: "atapi.gif", link: "https://atapi.space/", title: "atapi"},
+                            { img: "pivotman.webp", link: "https://pivotman319-owo.github.io/", title: "pivotman319", rel: "acquaintance"},
+                            { img: "atapi.webp", link: "https://atapi.space/", title: "atapi"},
                             { img: "j4.avif", link: "https://j4.lc", title: "J4", rel: "acquaintance"},
                         ]} />
                 </div>
@@ -75,11 +75,11 @@ export const LinksSection = () =>
                 <div class="badges">
                     <EightyEightThirtyOnes badges={[
                             { img: "fox.webp", title: "foxfoxfoxfoxfoxfox" },
-                            { img: "madewithpaws.png", title: "Made with my own two paws" },
-                            { img: "furry-yay.png", title: "Furry, yay!" },
-                            { img: "no-binary.png", title: "no binary? no problem!" },
-                            { img: "work.png", title: "this site works on My Machine™" },
-                            { img: "resonite.png", title: "Resonite", link: "https://resonite.com" },
+                            { img: "madewithpaws.webp", title: "Made with my own two paws" },
+                            { img: "furry-yay.webp", title: "Furry, yay!" },
+                            { img: "no-binary.webp", title: "no binary? no problem!" },
+                            { img: "work.webp", title: "this site works on My Machine™" },
+                            { img: "resonite.webp", title: "Resonite", link: "https://resonite.com" },
                         ]} />
                 </div>
                </div>
