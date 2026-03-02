@@ -10,6 +10,7 @@ Taylor's website
   - [x] fix the padding to the right side
   - [ ] fix the home page banner getting squished
 - [ ] integrate notes/blog
+- [ ] navigation on the top right 
 - [ ] art gallery on fursona page
   - [ ] also add the tayv2 art there too 
   - [ ] finish the ref
@@ -19,6 +20,8 @@ Taylor's website
   - [ ] redirect robins.one/notes
   - [ ] redirect taylor.robins.one
   - [ ] redirect robins.one
+- [ ] fix jsx compiler so i don't have to run 11ty in nodemon 
+- [ ] better way of doing css imports
 - [ ] projects page/section?
 - [ ] guest book/ask page
 - [ ] stylise the logos on the contact section

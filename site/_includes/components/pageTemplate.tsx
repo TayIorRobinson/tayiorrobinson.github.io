@@ -1,7 +1,7 @@
 import { Fragment, jsx, unsafeHTML } from "jsxxg"
 import { HtmlDivElement } from "jsxxg/data"
 
-export const PageTemplate = ({ title, children, ...rest }: { title?: string, children?: any } & HtmlDivElement) => 
+export const PageTemplate = ({ title, children, stylesheets, ...rest }: { title?: string, children?: any, stylesheets?: string[] } & HtmlDivElement) => 
     <>
         {unsafeHTML("<!DOCTYPE html>")}
         <html lang="en">
@@ -14,7 +14,10 @@ export const PageTemplate = ({ title, children, ...rest }: { title?: string, chi
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
                 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
-                <link rel="stylesheet" href="/css/index.css" />
+                <link rel="stylesheet" href="/css/common.css" />
+                {
+                    (stylesheets || []).map((value) => <link rel="stylesheet" href={`/css/${value}.css`} />)
+                }
             </head>
             <body>
                 <div id="root" {...rest}>

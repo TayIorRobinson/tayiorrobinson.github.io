@@ -1,0 +1,53 @@
+@use "util";
+
+.linkBtn {
+  text-decoration: none;
+  margin: 1px;
+
+  border: 1px solid transparent;
+  box-shadow: 0 0 0 1px transparent;
+  border-radius: 3px;
+  font-size: 18px;
+  display: block;
+  width: fit-content;
+
+  > .content {
+    display: flex;
+    align-items: center;
+    > img {
+      width: util.$px * 16;
+      height: util.$px * 16;
+    }
+    > .text {
+      margin-top: -(util.$px);
+      margin-bottom: util.$px;
+      padding-inline: util.$px * 5;
+    }
+  }
+
+  &:hover:not(:active) {
+    background-image: linear-gradient(
+      to bottom,
+      #ffffff80 0%,
+      #c5c5c531 50%,
+      #6464642b 50%,
+      #dadada15 100%
+    );
+    border: 1px solid #ffffff7d;
+    box-shadow: 0 0 0 1px #0000004d;
+  }
+  &:active {
+    background: light-dark(#00000012, black);
+    border-left-color: light-dark(#43434357, black);
+    border-top-color: light-dark(#43434357, black);
+    box-shadow:
+      0 0 0 1px #000000a6,
+      inset 1px 1px #34343427;
+    > .content {
+      transform: translate(1px, 1px);
+      > .text {
+        opacity: 80%;
+      }
+    }
+  }
+}

@@ -1,16 +1,16 @@
 import { Fragment, jsx } from "jsxxg";
-import { MainNav } from "./components/mainNav.tsx";
-import { PageTemplate } from "./components/pageTemplate.tsx";
-import { HeroSection } from "./components/sections/hero.tsx";
-import { Window, WindowTitlebar } from "./components/window.tsx";
-import { ContactsSection } from "./sections/contacts.tsx";
-import { LinksSection } from "./sections/links.tsx";
+import { MainNav } from "./_includes/components/mainNav.tsx";
+import { PageTemplate } from "./_includes/components/pageTemplate.tsx";
+import { HeroSection } from "./_includes/components/sections/hero.tsx";
+import { Window, WindowTitlebar } from "./_includes/components/window.tsx";
+import { ContactsSection } from "./_includes/sections/contacts.tsx";
+import { LinksSection } from "./_includes/sections/links.tsx";
 
 
 
 export default function (data) {
     console.log(data);
-    return <PageTemplate>
+    return <PageTemplate stylesheets={['index']}>
         <MainNav />
         <HeroSection/>
         

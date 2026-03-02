@@ -4,9 +4,16 @@
     grid-template-rows: 1fr;
 }
 
+@function lightInvert($color) {
+  @return light-dark($color, color.complement(color.invert($color)));
+}
+
 
 $fontStackFallback: 'Brandon Grotesque', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 $grotesk: 'Space Grotesk', 'Space Mono', $fontStackFallback;
 $mono: 'Space Mono', 'Space Grotesk', $fontStackFallback;
 .grotesk { font-family: $grotesk; }
 .mono { font-family: $mono; }
+
+$px: 1em/12;
+

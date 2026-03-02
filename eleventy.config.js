@@ -11,6 +11,7 @@ const targets = browserslistToTargets(browserslist('< 101%')) // literally every
 
 export default function (eleventyConfig) {
     eleventyConfig.setInputDirectory("./site");
+	eleventyConfig.setLayoutsDirectory("_includes/layouts");
     eleventyConfig.addPassthroughCopy("./site/assets");
     eleventyConfig.addPassthroughCopy({'./site/assets/favicon.ico': 'favicon.ico'})
 	eleventyConfig.addPassthroughCopy({'./site/well-known': '.well-known'});

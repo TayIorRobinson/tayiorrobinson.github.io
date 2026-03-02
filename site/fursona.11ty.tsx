@@ -1,13 +1,13 @@
 import { Fragment, jsx } from "jsxxg";
-import { MainNav } from "./components/mainNav.tsx";
-import { PageTemplate } from "./components/pageTemplate.tsx";
-import { Window, WindowTitlebar } from "./components/window.tsx";
+import { MainNav } from "./_includes/components/mainNav.tsx";
+import { PageTemplate } from "./_includes/components/pageTemplate.tsx";
+import { Window, WindowTitlebar } from "./_includes/components/window.tsx";
 
 
 
 export default function (data) {
     console.log(data);
-    return <PageTemplate title="The Internet Vulpine" class="fursonaPage">
+    return <PageTemplate title="The Internet Vulpine" class="fursonaPage" stylesheets={[ 'fursona' ]}>
         <MainNav />
         
         <div class="content-row">

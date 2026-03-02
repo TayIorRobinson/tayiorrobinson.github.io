@@ -1,0 +1,31 @@
+
+.input {
+  height: 1.375rem;
+  padding-inline: 5px;
+  border-radius: 2px;
+  font-size: 14px;
+  overflow-x: auto;
+  border: 1px solid lightInvert(#e2e3ea);
+  border-top-color: lightInvert(#abadb3);
+  border-bottom-color: lightInvert(#e3e9ef);
+  display: flex;
+  &:hover {
+    border-color: lightInvert(#c5daed);
+    border-top-color: lightInvert(#5794bf);
+    border-bottom-color: lightInvert(#bbd5e3);
+  }
+  &:focus-within {
+    border-color: lightInvert(#b5cfe7);
+    border-top-color: lightInvert(#3d7bad);
+    border-bottom-color: lightInvert(#b7d9ed);
+  }
+  input {
+    background: transparent;
+    border: 0px;
+    flex-grow: 1;
+    padding: 0;
+    &:focus {
+      outline: none;
+    }
+  }
+}

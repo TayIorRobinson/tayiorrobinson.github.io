@@ -1,0 +1,28 @@
+.brand {
+  margin-block: 0.75rem;
+  margin-inline: 0.75rem;
+  h1 {
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0;
+    margin-left: -0.125rem;
+    .mono {
+      margin-right: 0.05em;
+      letter-spacing: -0.06em;
+    }
+  }
+  > .tagline {
+    margin: 0;
+    font-size: 1.9rem;
+    line-height: 1em;
+    margin-left: 0.12rem;
+    > .ip {
+      background-image: linear-gradient(to bottom, #bd1693, #570a44);
+      background-clip: text;
+      color: transparent;
+      font-weight: 500;
+      -webkit-text-stroke: 1px #ffffff4a;
+      transform: translateY(1px);
+    }
+  }
+}

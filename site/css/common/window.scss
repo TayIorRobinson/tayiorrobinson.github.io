@@ -1,4 +1,4 @@
-@use "./util.scss";
+@use "util";
 
 .window {
   padding: 4px;
@@ -99,6 +99,7 @@
       .panel {
         background: light-dark(white, #10010c);
         color: light-dark(black, white);
+        overflow: hidden;
       }
     }
   }
