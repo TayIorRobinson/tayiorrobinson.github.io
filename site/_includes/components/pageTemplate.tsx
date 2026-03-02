@@ -12,9 +12,7 @@ export const PageTemplate = ({ data, title, children, stylesheets, head, ...rest
                 <meta http-equiv='X-UA-Compatible' content='IE=edge' />
                 <meta name="darkreader-lock"></meta>
                 {title && <title>{title}</title>}
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-                <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+                <link href="/assets/fonts/fonts.css" rel="stylesheet" />
                 <link rel="stylesheet" href="/css/common.css" />
                 <link rel="alternate" type="application/rss+xml" href="https://eth0fox.net/notes/rss.xml" title="Taylor's Notes (RSS Feed)" />
                 <link rel="alternate" type="application/feed+json" href="https://eth0fox.net/notes/feed.json" title="Taylor's Notes (JSON Feed)" />

@@ -29,12 +29,12 @@
  * --syntax-cursor-line: hsla(220, 100%, 80%, 0.04);
  */
 
-code[class*="language-"],
+code,
 pre[class*="language-"] {
 	background: hsl(220, 13%, 18%);
 	color: hsl(220, 14%, 71%);
 	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	font-family: "JetBrains Mono", "Roboto Mono", "Cascadia Code", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+	font-family: "Space Mono", "JetBrains Mono", "Roboto Mono", "Cascadia Code", Menlo, Consolas, "DejaVu Sans Mono", monospace;
 	direction: ltr;
 	text-align: left;
 	white-space: pre;
