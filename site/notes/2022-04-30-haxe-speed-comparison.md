@@ -1,11 +1,13 @@
 ---
 layout: post
 category: haxe
+tags:
+    - notes
 title: how fast is Haxe?
 ---
 Haxe for those who don't know is a programming language that doesn't commonly run as itself. It usually gets transpiled to other languages such as C++, JavaScript or C#.
 
-Of course, different targets will have different speeds, so I wanted to test that, so [I ported davepl's prime sieve to Haxe](https://github.com/TayIorRobinson/HaxePrimeSieve). Here's the results from my MacBook Pro M1.
+Of course, different targets will have different speeds, so I wanted to test that, so [I ported davepl's prime sieve to Haxe](https://github.com/eth0fox/HaxePrimeSieve). Here's the results from my MacBook Pro M1.
 
 | Target | Runs |
 |-|-|

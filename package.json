@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "robins.one",
+  "name": "eth0fox.net",
   "source": "src/index.html",
   "scripts": {
     "dev": "npm exec nodemon -- -e \"tsx\" -x \"npm exec @11ty/eleventy -- --serve\"",
@@ -8,6 +8,8 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
     "browserslist": "^4.28.1",
     "jsxxg": "file:xxgen/jsxxg",
     "lightningcss": "^1.31.0",

@@ -2,6 +2,7 @@
 layout: post
 category: macos
 tags:
+    - notes
     - plutil
     - plist
     - settings

@@ -59,7 +59,7 @@ export const ContactsSection = () =>
                         </li>
                         <li>
                             <LinkBtn rel="noopener me" href="mailto:u@1f98a.net" img="/assets/icons/mail-48px.png" title="Email">
-                                u@1f98a.net
+                                fox@boxfox.es
                             </LinkBtn>
                         </li>                        
                     </ul>

@@ -9,8 +9,7 @@ import { LinksSection } from "./_includes/sections/links.tsx";
 
 
 export default function (data) {
-    console.log(data);
-    return <PageTemplate stylesheets={['index']}>
+    return <PageTemplate  data={data} stylesheets={['index']}>
         <MainNav />
         <HeroSection/>
         

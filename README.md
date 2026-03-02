@@ -1,4 +1,4 @@
-# tayiorrobinson.github.io
+# eth0fox.github.io
 Taylor's website
 
 
@@ -9,8 +9,8 @@ Taylor's website
 - [ ] fix the site on mobile
   - [x] fix the padding to the right side
   - [ ] fix the home page banner getting squished
-- [ ] integrate notes/blog
-- [ ] navigation on the top right 
+- [x] integrate notes/blog
+- [x] navigation on the top right 
 - [ ] art gallery on fursona page
   - [ ] also add the tayv2 art there too 
   - [ ] finish the ref

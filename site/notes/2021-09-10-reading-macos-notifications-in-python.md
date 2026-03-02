@@ -1,7 +1,8 @@
 ---
 layout: post
-category: 
-    - macOS
+category: macos
+tags:
+    - notes
     - sqlite
     - python
     - notifications
@@ -11,7 +12,6 @@ title: Reading macOS Notifications in Python
 Python code snippet for reading notifications in Python3. Works on Big Sur.
 ```py
 # Read macOS Notifications
-# Author: Taylor Robinson
 # pip3 install bpylist
 
 import sqlite3

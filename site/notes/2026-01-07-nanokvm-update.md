@@ -2,6 +2,7 @@
 layout: post
 category: linux
 tags:
+    - notes
     - nanokvm
     - linux
 title: Updating the Sipeed NanoKVM without internet access.

@@ -1,12 +1,12 @@
 ---
 layout: post
-category: git
+category: macos
 tags:
+    - notes
     - git
     - trans
     - identity
     - users
-    - macos
 title: How to commit as multiple identities on macOS
 ---
 ### working title: how not to deadname yourself on git.

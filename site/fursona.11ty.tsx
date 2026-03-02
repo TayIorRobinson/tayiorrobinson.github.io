@@ -6,8 +6,7 @@ import { Window, WindowTitlebar } from "./_includes/components/window.tsx";
 
 
 export default function (data) {
-    console.log(data);
-    return <PageTemplate title="The Internet Vulpine" class="fursonaPage" stylesheets={[ 'fursona' ]}>
+    return <PageTemplate data={data} title="The Internet Vulpine" class="fursonaPage" stylesheets={[ 'fursona' ]}>
         <MainNav />
         
         <div class="content-row">

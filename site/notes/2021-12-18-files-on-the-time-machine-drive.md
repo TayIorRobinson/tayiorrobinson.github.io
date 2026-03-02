@@ -2,8 +2,9 @@
 layout: post
 category: macos
 tags:
+  - notes
   - time machine
-  - monterey
+  - apfs
 title: putting files on the time machine drive on Monterey
 ---
 

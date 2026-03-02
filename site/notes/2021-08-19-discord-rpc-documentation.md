@@ -1,9 +1,11 @@
 ---
 layout: post
-category: 
+category: protocols
+tags:
+    - notes
     - discord
     - ipc
-    - protocol
+    - protocols
 title: Discord RPC Protocol Documentation
 ---
 

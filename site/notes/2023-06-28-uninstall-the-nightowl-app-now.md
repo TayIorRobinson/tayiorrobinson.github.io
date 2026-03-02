@@ -1,8 +1,9 @@
 ---
 layout: post
-category: malware
+category: macos
 tags:
-    - macos
+    - notes
+    - malware
     - nightowl
     - botnet
 title: Uninstall the Nightowl App, now.
@@ -80,9 +81,3 @@ The application also seems to use the [Pawns](https://pawns.app/) SDK[^3], which
 [^5]: <https://pawns.app/>
 [^6]: <https://pawns.app/blog/iproyal-pawns-is-now-pawns-app/>
 [^7]: <https://iproyal.com/>
-
-## Questions, concerns, comments?
-
-If you have any more information, I can be contacted at:
- - [taylor@robins.one](mailto:taylor@robins.one)
- - [t.me/tayiorrobinson](https://t.me/tayiorrobinson)

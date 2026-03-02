@@ -2,7 +2,7 @@
 layout: post
 category: linux
 tags:
-  - linux
+  - notes
   - debian
   - jessie
   - chip
