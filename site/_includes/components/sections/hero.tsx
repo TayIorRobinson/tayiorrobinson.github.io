@@ -41,7 +41,7 @@ export const HeroSection = () =>
                             `}
                         </script>
                         <div class="bigbuttoncontainer">
-                            <a id="bigbutton">
+                            <a id="bigbutton" href="/assets/InternetVulpine.exe">
                                 <IconCircleArrowDown width={32} height={32} />
                                 <div class="text">
                                     <b>Free Download</b>

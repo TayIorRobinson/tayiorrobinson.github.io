@@ -14,7 +14,7 @@ Taylor's website
 - [ ] art gallery on fursona page
   - [ ] also add the tayv2 art there too 
   - [ ] finish the ref
-- [ ] make the 'free download' button on the home page do something funny
+- [x] make the 'free download' button on the home page do something funny
 - [ ] optimise all the images
 - [ ] publish the thing
   - [ ] redirect robins.one/notes
