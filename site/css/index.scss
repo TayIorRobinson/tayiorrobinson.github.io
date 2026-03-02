@@ -47,10 +47,10 @@ body {
 }
 
 #root {
+  $padding: 12px;
   display: grid;
-  grid-template-columns: 1fr min(1022px, 100%) 1fr;
-  max-width: 100%;
-  gap: 12px;
+  grid-template-columns: 1fr min(1022px, calc(100% - $padding * 2)) 1fr;
+  gap: $padding;
   > .content-row {
     grid-column: 2 / 3;
     padding: 4px;
