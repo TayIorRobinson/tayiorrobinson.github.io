@@ -1,7 +1,6 @@
 # eth0fox.github.io
 Taylor's website
 
-
 ## todo list:
 
 - [x] contact links  
