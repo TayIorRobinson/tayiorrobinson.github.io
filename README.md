@@ -16,7 +16,7 @@ Taylor's website
   - [ ] finish the ref
 - [x] make the 'free download' button on the home page do something funny
 - [x] optimise all the images
-- [ ] publish the thing
+- [x] publish the thing
   - [ ] redirect robins.one/notes
   - [ ] redirect taylor.robins.one
   - [ ] redirect robins.one
