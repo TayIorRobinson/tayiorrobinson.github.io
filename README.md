@@ -16,9 +16,9 @@ Taylor's website
 - [x] make the 'free download' button on the home page do something funny
 - [x] optimise all the images
 - [x] publish the thing
-  - [ ] redirect robins.one/notes
+  - [x] redirect robins.one/notes
   - [ ] redirect taylor.robins.one
-  - [ ] redirect robins.one
+  - [x] redirect robins.one
 - [ ] fix jsx compiler so i don't have to run 11ty in nodemon 
 - [ ] better way of doing css imports
 - [ ] projects page/section?
