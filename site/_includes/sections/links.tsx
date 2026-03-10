@@ -71,7 +71,7 @@ export const LinksSection = () =>
                             { img: "j4.avif", link: "https://j4.lc", title: "J4", rel: "acquaintance"},
                         ]} />
                 </div>
-                <h2>Miscelaneous badges</h2>
+                <h2>Miscellaneous badges</h2>
                 <div class="badges">
                     <EightyEightThirtyOnes badges={[
                             { img: "fox.webp", title: "foxfoxfoxfoxfoxfox" },
@@ -80,6 +80,12 @@ export const LinksSection = () =>
                             { img: "no-binary.webp", title: "no binary? no problem!" },
                             { img: "work.webp", title: "this site works on My Machine™" },
                             { img: "resonite.webp", title: "Resonite", link: "https://resonite.com" },
+                            { img: 'pride-rainbow.webp', title: 'LGBTQIA+ Pride Flag' },
+                            { img: 'pride-trans.webp', title: 'Transgender Pride Flag' },
+                            { img: 'queer-coded.webp', title: "you're telling me a queer coded this?" },
+                            { img: 'MadeOnAMac.webp', title: 'Made on a Mac' },
+                            { img: 'MadeOnWindows.webp', title: 'Made on Windows' },
+                            { img: 'firefox4.webp', title: 'Tested on Firefox' },
                         ]} />
                 </div>
                </div>
