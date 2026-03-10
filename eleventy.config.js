@@ -4,6 +4,7 @@ import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import browserslist from "browserslist";
 import * as lightningcss from "lightningcss";
 import { browserslistToTargets } from "lightningcss";
+import markdownItFootnote from "markdown-it-footnote";
 import path from "path";
 import * as sass from "sass";
 import "xxgen/dist/import-tsx.js";
@@ -21,6 +22,7 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(IdAttributePlugin);
 	eleventyConfig.addPlugin(syntaxHighlight);
+	eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItFootnote));
 
 	const feedConfig = {
 		collection: {

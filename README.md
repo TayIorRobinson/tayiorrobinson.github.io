@@ -1,7 +1,6 @@
 # eth0fox.github.io
 Taylor's website
 
-
 ## todo list:
 
 - [x] contact links  
@@ -16,10 +15,10 @@ Taylor's website
   - [ ] finish the ref
 - [x] make the 'free download' button on the home page do something funny
 - [x] optimise all the images
-- [ ] publish the thing
-  - [ ] redirect robins.one/notes
+- [x] publish the thing
+  - [x] redirect robins.one/notes
   - [ ] redirect taylor.robins.one
-  - [ ] redirect robins.one
+  - [x] redirect robins.one
 - [ ] fix jsx compiler so i don't have to run 11ty in nodemon 
 - [ ] better way of doing css imports
 - [ ] projects page/section?

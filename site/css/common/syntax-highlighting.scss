@@ -37,7 +37,6 @@ pre[class*="language-"] {
 	font-family: "Space Mono", "JetBrains Mono", "Roboto Mono", "Cascadia Code", Menlo, Consolas, "DejaVu Sans Mono", monospace;
 	direction: ltr;
 	text-align: left;
-	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
 	line-height: 1.5;
@@ -48,6 +47,9 @@ pre[class*="language-"] {
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
+	&[class*="language-*"] {
+		white-space: pre;
+	}
 }
 
 /* Selection */
