@@ -14,7 +14,7 @@ export default function (data) {
         <HeroSection/>
         
         <div class="content-row">
-            <Window focused titlebar={<WindowTitlebar caption="About" />}>
+            <Window focused titlebar={<WindowTitlebar iconSrc="/favicon.ico" caption="About" />}>
                 <div class="prose">
                     <h2>Hello!</h2>
                     <hr/>

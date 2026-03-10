@@ -4,14 +4,14 @@ import { LinkBtn } from "./linkBtn.tsx"
 
 export const MainNav = () =>     
     <div class="content-row" id="mainnav">
-        <div class="brand">
+        <a href='/' class="brand">
             <h1>
-                <a href="/"><span class="mono">eth0</span>fox</a>
+                <span class="mono">eth0</span>fox
             </h1>
             <p class="tagline">
                 Inte<span class="mono">r</span>net Vu<span class="ip">lP</span>ine
             </p>
-        </div>
+        </a>
         <div class='navlinks'>
             <LinkBtn lg href="/">
                 Home

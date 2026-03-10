@@ -2,6 +2,7 @@
 @use "./common/window.scss";
 @use "./common/nav.scss";
 @use "./common/linkBtn.scss";
+@use "./common/button.scss";
 @use "sass:color";
 
 @function bgGradient($color, $size, $x, $y, $color2: transparent) {

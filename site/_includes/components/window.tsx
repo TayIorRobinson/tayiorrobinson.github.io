@@ -3,7 +3,7 @@ import { Fragment, jsx, JSXChildren } from "jsxxg";
 export const WindowTitlebar = ({ iconSrc, caption }: { iconSrc?: string, caption?: string }) => <>
     <div class="controls"></div>
     <div class="titlebar">
-        <img class="icon" width="16" height="16" src={iconSrc || "/favicon.ico"} />
+        { iconSrc && <img class="icon" width="16" height="16" src={iconSrc} /> }
         <h2 class="caption">{caption || "Window"}</h2>
     </div>
 </>

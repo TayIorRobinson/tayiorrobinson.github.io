@@ -1,0 +1,14 @@
+.errorContent {
+    font-size: 13px;
+    background: light-dark(white, black);
+    .errorTop, .errorBottom {
+        padding: 11px;
+        display: flex;
+        gap: 11px;
+    }
+    .errorBottom {
+        border-top: 1px solid light-dark(#dfdfdf, #202020);
+        background: light-dark(#f0f0f0,#0f0f0f);
+        justify-content: end;
+    }
+}
