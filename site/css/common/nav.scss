@@ -30,6 +30,12 @@
           transform: translateY(1px);
         }
       }
+      > h1, > .tagline {
+          background-image: linear-gradient(to bottom, light-dark(#3e3e3e, #ffffff), light-dark(#000000, #c1c1c1));
+          background-clip: text;
+          color: transparent;
+          -webkit-text-stroke: 1px #ffffff4a;
+      }
     }
     .navlinks {
         flex: 0 1 auto;
