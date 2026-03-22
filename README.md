@@ -19,7 +19,7 @@ Taylor's website
   - [x] redirect robins.one/notes
   - [ ] redirect taylor.robins.one
   - [x] redirect robins.one
-- [ ] 404 page
+- [x] 404 page
 - [ ] fix jsx compiler so i don't have to run 11ty in nodemon 
 - [ ] better way of doing css imports
 - [ ] projects page/section?
