@@ -113,3 +113,27 @@ area {
   }
 }
 
+table {
+  &.vertical {
+    th {
+      text-align: left;
+    }
+  }
+
+}
+
+.introductoryText {
+  font-style: italic;
+  margin-inline: 1.5em;
+  margin-block: 0.7em;
+}
+
+.faint {
+  opacity: 0.6;
+  font-size: 50%;
+}
+
+.has-hovertext {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
