@@ -58,7 +58,7 @@ export const ContactsSection = () =>
                             </LinkBtn>
                         </li>
                         <li>
-                            <LinkBtn rel="noopener me" href="mailto:u@1f98a.net" img="/assets/icons/mail-48px.webp" title="Email">
+                            <LinkBtn rel="noopener me" href="mailto:fox@boxfox.es" img="/assets/icons/mail-48px.webp" title="Email">
                                 fox@boxfox.es
                             </LinkBtn>
                         </li>                        
