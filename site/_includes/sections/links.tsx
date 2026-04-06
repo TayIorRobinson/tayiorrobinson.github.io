@@ -69,25 +69,26 @@ export const LinksSection = () =>
                             { img: "pivotman.webp", link: "https://pivotman319-owo.github.io/", title: "pivotman319", rel: "acquaintance"},
                             { img: "atapi.webp", link: "https://atapi.space/", title: "atapi"},
                             { img: "j4.avif", link: "https://j4.lc", title: "J4", rel: "acquaintance"},
+                            { img: "kaizo.png", link: "https://keithhacks.cyou", title: "Kaizo Hellhound", rel: "friend"},
                         ]} />
-                </div>
-                <h2>Miscellaneous badges</h2>
-                <div class="badges">
-                    <EightyEightThirtyOnes badges={[
-                            { img: "fox.webp", title: "foxfoxfoxfoxfoxfox" },
-                            { img: "madewithpaws.webp", title: "Made with my own two paws" },
-                            { img: "furry-yay.webp", title: "Furry, yay!" },
-                            { img: "no-binary.webp", title: "no binary? no problem!" },
-                            { img: "work.webp", title: "this site works on My Machine™" },
-                            { img: "resonite.webp", title: "Resonite", link: "https://resonite.com" },
-                            { img: 'pride-rainbow.webp', title: 'LGBTQIA+ Pride Flag' },
-                            { img: 'pride-trans.webp', title: 'Transgender Pride Flag' },
-                            { img: 'queer-coded.webp', title: "you're telling me a queer coded this?" },
-                            { img: 'MadeOnAMac.webp', title: 'Made on a Mac' },
-                            { img: 'MadeOnWindows.webp', title: 'Made on Windows' },
-                            { img: 'firefox4.webp', title: 'Tested on Firefox' },
-                        ]} />
-                </div>
+                    </div>
+                    <h2>Miscellaneous badges</h2>
+                    <div class="badges">
+                        <EightyEightThirtyOnes badges={[
+                                { img: "fox.webp", title: "foxfoxfoxfoxfoxfox" },
+                                { img: "madewithpaws.webp", title: "Made with my own two paws" },
+                                { img: "furry-yay.webp", title: "Furry, yay!" },
+                                { img: "no-binary.webp", title: "no binary? no problem!" },
+                                { img: "work.webp", title: "this site works on My Machine™" },
+                                { img: "resonite.webp", title: "Resonite", link: "https://resonite.com" },
+                                { img: 'pride-rainbow.webp', title: 'LGBTQIA+ Pride Flag' },
+                                { img: 'pride-trans.webp', title: 'Transgender Pride Flag' },
+                                { img: 'queer-coded.webp', title: "you're telling me a queer coded this?" },
+                                { img: 'MadeOnAMac.webp', title: 'Made on a Mac' },
+                                { img: 'MadeOnWindows.webp', title: 'Made on Windows' },
+                                { img: 'firefox4.webp', title: 'Tested on Firefox' },
+                            ]} />
+                    </div>
                </div>
             </Window>
         </div>
