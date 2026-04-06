@@ -4,6 +4,12 @@
     grid-template-rows: 1fr;
 }
 
+@mixin noAA {
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+.noAA { @include noAA; }
+
 @function lightInvert($color) {
   @return light-dark($color, color.complement(color.invert($color)));
 }

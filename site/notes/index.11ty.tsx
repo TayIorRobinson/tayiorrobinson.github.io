@@ -5,7 +5,6 @@ import { Window, WindowTitlebar } from "../_includes/components/window.tsx";
 
 
 export default function (data) {
-    console.log(data.collections.notes[0])
     return <PageTemplate title="Taylor's Notes" data={data}>
         <MainNav />
         

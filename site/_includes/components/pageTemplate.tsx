@@ -4,7 +4,6 @@ import { HtmlDivElement } from "jsxxg/data"
 export const PageTemplate = ({ data, title, children, stylesheets, head, ...rest }: { data: any, title?: string, children?: any, stylesheets?: string[], head?: any } & HtmlDivElement) => 
     <>
         {unsafeHTML("<!DOCTYPE html>")}
-        { console.log(data) }
         <html lang="en">
             <head>
                 <meta charset="UTF-8" />

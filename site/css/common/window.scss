@@ -57,9 +57,8 @@
     padding-inline: 2px;
     position: relative;
     > .icon {
+      @include util.noAA;
       z-index: 2;
-      image-rendering: pixelated;
-      image-rendering: -moz-crisp-edges;
     }
     > .caption {
       z-index: 1;

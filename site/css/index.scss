@@ -121,10 +121,9 @@
 }
 
 .badges {
+    @include util.noAA;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-block: 0.675em;
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
 }
