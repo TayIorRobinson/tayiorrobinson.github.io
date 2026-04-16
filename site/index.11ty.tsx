@@ -57,7 +57,7 @@ export default function (data) {
                     </p>
                     <h2>Why are you?</h2>
                     <p>
-                        I mean, I think you might have to ask my parents for the start to that, but probably, mostly autism, mixed with a healthy dose of unsupervised internet access, and a sprinkling on Nicholas Wilde, and a <a href="https://www.youtube.com/watch?v=ws9g3igw51s" target="_blank" rel="noopener">life-altering video essay about furry porn</a>
+                        I mean, I think you might have to ask my parents for the start to that, but probably, mostly autism, mixed with a healthy dose of unsupervised internet access, and a sprinkling of Nicholas Wilde, and a <a href="https://www.youtube.com/watch?v=ws9g3igw51s" target="_blank" rel="noopener">life-altering video essay about furry porn</a>
                     </p>
 
                     <h2>Furrycode</h2>
