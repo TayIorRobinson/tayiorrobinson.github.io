@@ -20,6 +20,7 @@ export const PageTemplate = ({ data, title, children, stylesheets, head, ...rest
                 <meta name="robots" content="index,follow" />
                 <link rel="canonical" href={"https://eth0fox.net" + data.page.url} />
                 <meta name="fediverse:creator" content="@tay@tech.lgbt"/>
+                {/* <script src="/assets/js/spanav.js"></script> */}
                 {
                     (stylesheets || []).map((value) => <link rel="stylesheet" href={`/css/${value}.css`} />)
                 }
