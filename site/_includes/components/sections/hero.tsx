@@ -11,8 +11,12 @@ export const HeroSection = () =>
                     <map name='heroBooper'>
                         <area shape="poly" coords="745,190,731,172,733,167,747,166,758,169,765,174,766,177" onclick="(new Audio('/assets/boop.ogg')).play()" />
                     </map>
-                    
-                    <img usemap="#heroBooper" src="/assets/hero-bg.webp" width={1000} height={425} alt="An image of an anthropomorphic fox character waving at you, in front of an abstract aurora background." />
+                    <img 
+                        usemap="#heroBooper" 
+                        src="/assets/img/hero-bg.jpg"
+                        width={1000} height={425}
+                        alt="An image of an anthropomorphic fox character waving at you, in front of an abstract aurora background." 
+                    />
                     
                     <div class="content">
                         <div class="title" id="hero-title">
@@ -20,7 +24,7 @@ export const HeroSection = () =>
                                 Foxes run on <i>JavaScript™</i>
                             </h2>
                             <p>
-                                You'll need to turn that on to turn them on. <small style='font-size: 50%;'>wait no- not like that!</small>
+                                You'll need to turn that on to turn them on. <small style='font-size: 50%;'>wait no- that's not what i meant!</small>
                             </p>
 
                         </div>
