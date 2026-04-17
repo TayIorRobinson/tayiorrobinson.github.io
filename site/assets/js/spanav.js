@@ -33,7 +33,10 @@ if (!window['SPANAV_INITIALIZED']) {
         const url = new URL(event.destination.url);
         console.log("Navigating to:", url.pathname);
 
-        if (url.pathname.startsWith("/assets/")) return;
+        if (
+            url.pathname.startsWith("/assets/")
+            || url.pathname.startsWith("/css/")
+        ) return;
 
         console.log("Intercepting navigation to:", url.pathname);
         event.intercept({

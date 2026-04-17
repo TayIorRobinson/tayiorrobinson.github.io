@@ -23,16 +23,17 @@ type EightyEightThirtyOne = {
     img: string;
     title?: string;
     rel?: (typeof RelOrder)[number]
+    fallback?: string;
 }
-const EightyEightThirtyOne = ({ link, img, title, rel }: EightyEightThirtyOne) =>
+const EightyEightThirtyOne = ({ link, img, title, rel, fallback }: EightyEightThirtyOne) =>
     <a href={link} target="_blank" rel={"noopener " + rel} class="eightyeightthirtyone">
-        <img width={88} height={31} src={`/assets/88x31/${img}`} title={title} />
+        <img width={88} height={31} src={`/assets/88x31/${img}`} alt={title} title={title} onerror={fallback && `this.src = '/assets/88x31/${img.replace(/\..+$/, '.'+fallback)}'`} />
     </a>
 
 
 
 const EightyEightThirtyOnes = ({ badges }: { badges: Parameters<typeof EightyEightThirtyOne>[0][]}) =>
-    badges.sort((a,b) => a.rel == b.rel ? a.img.localeCompare(b.img) : (RelOrder.indexOf(b.rel) - RelOrder.indexOf(a.rel))).map(badge => jsx(EightyEightThirtyOne, badge))
+    badges.sort((a,b) => a.rel == b.rel ? a.img.localeCompare(b.img) : (RelOrder.indexOf(b.rel!) - RelOrder.indexOf(a.rel!))).map(badge => jsx(EightyEightThirtyOne, badge))
 
 export const LinksSection = () => 
     <div class="content-row">
@@ -56,18 +57,18 @@ export const LinksSection = () =>
                     <p>Here's the badges of some people I think are cool :D - feel free to steal my own badge for your own site, or if I know you, and I haven't got your badge, let me know!</p>
                     <div class='badges'>
                         <EightyEightThirtyOnes badges={[
-                            { img: "eth0fox.webp", link: "https://eth0fox.net", title: "it's me! feel free to steal this one for your own sites!", rel: "me" },
+                            { img: "eth0fox.webp", fallback: "png", link: "https://eth0fox.net", title: "it's me! feel free to steal this one for your own sites!", rel: "me" },
                             { img: "orion.webp", link: "https://moonclaw.eu", title: "Orion Moonclaw", rel: "friend" },
-                            { img: "spotlight.webp", link: "https://joscomputing.space/", title: "Spotlight" },
-                            { img: "yosh.webp", link: "https://www.unix.dog/~yosh/", title: "yosh", rel: "friend" },
-                            { img: "noel.webp", link: "https://00ffff.eu", title: "Noel", rel: "friend" },
-                            { img: "rail.webp", link: "https://flufftech.net/", title: "rail" },
-                            { img: "theresnotime.webp", link: "https://www.theresnotime.co.uk/", title: "TheresNoTime"},
-                            { img: "mineboom.webp", link: "https://mineboom.neocities.org/", title: "MineBoom", rel: "friend" },
-                            { img: "ryfox.webp", link: "https://ry.cd-rom.net/", title: "ryfox"},
+                            { img: "spotlight.webp", fallback: 'gif', link: "https://joscomputing.space/", title: "Spotlight" },
+                            { img: "yosh.webp", fallback: 'png', link: "https://www.unix.dog/~yosh/", title: "yosh", rel: "friend" },
+                            { img: "noel.webp", fallback: 'png', link: "https://00ffff.eu", title: "Noel", rel: "friend" },
+                            { img: "rail.webp", fallback: 'png', link: "https://flufftech.net/", title: "rail" },
+                            { img: "theresnotime.webp", fallback: 'png' link: "https://www.theresnotime.co.uk/", title: "TheresNoTime"},
+                            { img: "mineboom.webp", fallback: 'gif', link: "https://mineboom.neocities.org/", title: "MineBoom", rel: "friend" },
+                            { img: "ryfox.webp", fallback: 'png', link: "https://ry.cd-rom.net/", title: "ryfox"},
                             { img: "sneexy.svg", link: "https://sneexy.synth.download/", title: "ruben"},
-                            { img: "pivotman.webp", link: "https://pivotman319-owo.github.io/", title: "pivotman319", rel: "acquaintance"},
-                            { img: "atapi.webp", link: "https://atapi.space/", title: "atapi"},
+                            { img: "pivotman.webp", fallback: 'png', link: "https://pivotman319-owo.github.io/", title: "pivotman319", rel: "acquaintance"},
+                            { img: "atapi.webp", fallback: 'gif', link: "https://atapi.space/", title: "atapi"},
                             { img: "j4.avif", link: "https://j4.lc", title: "J4", rel: "acquaintance"},
                             { img: "kaizo.png", link: "https://keithhacks.cyou", title: "Kaizo Hellhound", rel: "friend"},
                         ]} />
@@ -76,17 +77,17 @@ export const LinksSection = () =>
                     <div class="badges">
                         <EightyEightThirtyOnes badges={[
                                 { img: "fox.webp", title: "foxfoxfoxfoxfoxfox" },
-                                { img: "madewithpaws.webp", title: "Made with my own two paws" },
-                                { img: "furry-yay.webp", title: "Furry, yay!" },
-                                { img: "no-binary.webp", title: "no binary? no problem!" },
-                                { img: "work.webp", title: "this site works on My Machine™" },
-                                { img: "resonite.webp", title: "Resonite", link: "https://resonite.com" },
-                                { img: 'pride-rainbow.webp', title: 'LGBTQIA+ Pride Flag' },
-                                { img: 'pride-trans.webp', title: 'Transgender Pride Flag' },
-                                { img: 'queer-coded.webp', title: "you're telling me a queer coded this?" },
-                                { img: 'MadeOnAMac.webp', title: 'Made on a Mac' },
-                                { img: 'MadeOnWindows.webp', title: 'Made on Windows' },
-                                { img: 'firefox4.webp', title: 'Tested on Firefox' },
+                                { img: "madewithpaws.webp",  fallback: 'png', title: "Made with my own two paws" },
+                                { img: "furry-yay.webp",  fallback: 'png', title: "Furry, yay!" },
+                                { img: "no-binary.webp", fallback: 'png', title: "no binary? no problem!" },
+                                { img: "work.webp",  fallback: 'png', title: "this site works on My Machine™" },
+                                { img: "resonite.webp",  fallback: 'png', title: "Resonite", link: "https://resonite.com" },
+                                { img: 'pride-rainbow.webp', fallback: 'png', title: 'LGBTQIA+ Pride Flag' },
+                                { img: 'pride-trans.webp',  fallback: 'png', title: 'Transgender Pride Flag' },
+                                { img: 'queer-coded.webp',  fallback: 'png', title: "you're telling me a queer coded this?" },
+                                { img: 'MadeOnAMac.webp',  fallback: 'gif', title: 'Made on a Mac' },
+                                { img: 'MadeOnWindows.webp',  fallback: 'gif', title: 'Made on Windows' },
+                                { img: 'firefox4.webp', fallback: 'gif', title: 'Tested on Firefox' },
                             ]} />
                     </div>
                </div>

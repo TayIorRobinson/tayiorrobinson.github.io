@@ -18,6 +18,7 @@
   color-scheme: light dark;
 }
 
+
 body {
   background-image:
     light-dark(
@@ -137,4 +138,12 @@ table {
 .has-hovertext {
   text-decoration: underline;
   text-decoration-style: dashed;
+}
+
+
+
+@supports (display: grid) { 
+  #oldBrowser {
+    display: none;
+  }
 }

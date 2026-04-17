@@ -37,15 +37,16 @@ export default function (data) {
                                 var time = "time for you to update your browser";
                                 try {
                                     var now = new Date();
-                                    time = now.toLocaleString(undefined, { timeZone: 'Europe/London', hour:'2-digit', minute: '2-digit', timeZoneName: 'short', hour12: true } )
-                                    var minuteProgress = now.getTime() % 60_000;
-                                    var left = 60_000 - minuteProgress;
+                                    time = now.toLocaleString(undefined, { timeZone: 'Europe/London', hour:'2-digit', minute: '2-digit', timeZoneName: 'short', hour12: true } );
+                                    var minuteProgress = now.getTime() % 60000;
+                                    var left = 60000 - minuteProgress;
 
 
-                                    setTimeout(updateTime, left)
+                                    setTimeout(updateTime, left);
                                 } catch(e) {
                                     console.error(e);
                                 }
+                                document.getElementById('clock').innerText = time;
                                 document.getElementById('clock').textContent = time;
                             }
                             updateTime();

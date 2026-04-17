@@ -24,10 +24,23 @@ export const PageTemplate = ({ data, title, children, stylesheets, head, ...rest
                 {
                     (stylesheets || []).map((value) => <link rel="stylesheet" href={`/css/${value}.css`} />)
                 }
+                {/* <script>{js`
+                    window.onerror = function (message, source, lineno, colno, error) {
+                        alert("Script error in " + source + " (" + lineno + ":" + colno + ")!\n" + message)
+                    }
+                `}</script> */}
+                {unsafeHTML(`
+                    <!--[if lt IE 8]> <link rel="stylesheet" href="/assets/compat/lte-ie7.css" /> <![endif]-->    
+                `)}
                 {head}
             </head>
             <body>
+                <div id="oldBrowser">
+                    <b>Hello old-browser-using friend!</b> Despite the mid-2000s aesthetics here, this site is actually built mainly with modern web technologies. So, if you're not using one the site will probably look broken.<br/>
+                    I try to make it work as much possible where the fixes are simple, and the site shouldn't be so broken as to be unusable (let me know if it is) - but my sanity and experience for modern browsers trumps supporting IE7 or whatever.
+                </div>
                 <div id="root" {...rest}>
+
                     {children}
                 </div>
             </body>
