@@ -79,10 +79,10 @@
                 1024px 1024px;
             background-attachment: fixed;
             background-blend-mode: screen, normal;
-            // mask-image: url("/assets/img/hero/taylor-wave-mask-2.png");
-            mask-image: url("/assets/img/hero/taylor-wave-mask@2x.webp");
-            mask-mode: luminance;
+            mask-image: url("/assets/img/hero/taylor-wave-mask.avif");
+            mask-mode: alpha;
             mask-size: 100% 100%;
+            pointer-events: none;
         }
     }
 

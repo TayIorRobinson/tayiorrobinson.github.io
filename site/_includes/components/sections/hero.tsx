@@ -7,17 +7,11 @@ import { Window } from "../window.tsx";
 export const HeroSection = () => 
     <div class="content-row">
             <Window focused>
+                <map name='heroBooper'>
+                    <area shape="poly" coords="179,190,171,182,164,170,169,164,181,164,196,167,203,175,195,183" onclick="(new Audio('/assets/boop.ogg')).play()" />
+                </map>
                 <div id="hero">
-                    {/* <map name='heroBooper'>
-                        <area shape="poly" coords="745,190,731,172,733,167,747,166,758,169,765,174,766,177" onclick="(new Audio('/assets/boop.ogg')).play()" />
-                    </map>
-                    <img 
-                        usemap="#heroBooper" 
-                        src="/assets/img/hero-bg.jpg"
-                        width={1000} height={425}
-                        alt="An image of an anthropomorphic fox character waving at you, in front of an abstract aurora background." 
-                    />
-                     */}
+                    
                     <div class="content">
                         <div class="title" id="hero-title">
                             <h2>
@@ -58,9 +52,10 @@ export const HeroSection = () =>
                     </div>
 
                     <div class="taylor">
-                        <img src="/assets/img/hero/taylor-wave-color.webp" width={871} height={848} />
+                        <img src="/assets/img/hero/taylor-wave-color.webp" usemap="#heroBooper"  width={871} height={848} />
                         <div class="ether" />
                     </div>
                 </div>
+                
             </Window>
         </div>
