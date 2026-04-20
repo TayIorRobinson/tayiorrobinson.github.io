@@ -9,7 +9,7 @@ export default function (data) {
         <MainNav />
         
         <div class="content-row">
-            <Window focused titlebar={<WindowTitlebar iconSrc="/assets/icons/folder.png" caption="Taylor's Notes - File Explorer" />}>
+            <Window focused titlebar={<WindowTitlebar iconSrc="/assets/img/icons/folder.png" caption="Taylor's Notes - File Explorer" />}>
                 <div class="prose">
                     <p>
                         If I find something of note that I'd like to write down somewhere and share it with the world, here's where I'll chuck it.

@@ -4,7 +4,7 @@ import { Window, WindowTitlebar } from "../components/window.tsx";
 
 export const ContactsSection = () => 
     <div class="content-row">
-            <Window focused titlebar={<WindowTitlebar iconSrc="/assets/icons/contact.png" caption="Taylor - Contacts" />}>
+            <Window focused titlebar={<WindowTitlebar iconSrc="/assets/img/icons/contact.png" caption="Taylor - Contacts" />}>
                 <div class="prose">
                     <p>I also hang around on other places around the internet, so if you want to find me elsewhere, try the following:</p>
 
@@ -58,7 +58,7 @@ export const ContactsSection = () =>
                             </LinkBtn>
                         </li>
                         <li>
-                            <LinkBtn rel="noopener me" href="mailto:fox@boxfox.es" img="/assets/icons/mail-48px.webp" title="Email">
+                            <LinkBtn rel="noopener me" href="mailto:fox@boxfox.es" img="/assets/img/icons/mail-48px.webp" title="Email">
                                 fox@boxfox.es
                             </LinkBtn>
                         </li>                        

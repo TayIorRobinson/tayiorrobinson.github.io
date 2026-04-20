@@ -37,7 +37,7 @@ const EightyEightThirtyOnes = ({ badges }: { badges: Parameters<typeof EightyEig
 
 export const LinksSection = () => 
     <div class="content-row">
-            <Window focused titlebar={<WindowTitlebar iconSrc="/assets/icons/globe.png" caption="Links" />}>
+            <Window focused titlebar={<WindowTitlebar iconSrc="/assets/img/icons/globe.png" caption="Links" />}>
                 <div class="prose">
                     <h2>Webrings</h2>
                     <p>Here's the links through the webrings this site is a part of</p>

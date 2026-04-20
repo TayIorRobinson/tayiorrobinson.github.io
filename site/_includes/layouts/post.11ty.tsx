@@ -8,7 +8,7 @@ export default function (data) {
     return <PageTemplate  data={data} title={title} stylesheets={['post']}>
         <MainNav />
         <div class="content-row">
-            <Window focused titlebar={<WindowTitlebar caption={inputPath.split('/').pop() + " - Notepad"} iconSrc="/assets/icons/notepad.png" />}>
+            <Window focused titlebar={<WindowTitlebar caption={inputPath.split('/').pop() + " - Notepad"} iconSrc="/assets/img/icons/notepad.png" />}>
                 <div class="prose">
                     <h1 id="postTitle">{title}</h1>
                     <p id="postMeta">

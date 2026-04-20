@@ -10,13 +10,13 @@ export default function (data) {
         <MainNav />
         
         <div class="content-row">
-            <Window focused titlebar={<WindowTitlebar iconSrc="/assets/icons/picture.png" caption="internet-vulpine-reference.png - Photo Viewer" />}>
+            <Window focused titlebar={<WindowTitlebar iconSrc="/assets/img/icons/picture.png" caption="internet-vulpine-reference.png - Photo Viewer" />}>
                 <img src="/assets/taylor-ref.webp" class="ref-image"></img>
             </Window>
             
         </div>
         <div class="content-row">
-            <Window focused titlebar={<WindowTitlebar iconSrc="/assets/icons/notepad.png" caption="internet-vulpine-v3_1.txt - Notepad" />}>
+            <Window focused titlebar={<WindowTitlebar iconSrc="/assets/img/icons/notepad.png" caption="internet-vulpine-v3_1.txt - Notepad" />}>
                 <div class="prose">
                     <h1>Taylor (aka. eth0fox)</h1>
                     <i class="species">Vulpes packetus (Internet Fox)</i>
