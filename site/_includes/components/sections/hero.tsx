@@ -8,7 +8,7 @@ export const HeroSection = () =>
     <div class="content-row">
             <Window focused>
                 <div id="hero">
-                    <map name='heroBooper'>
+                    {/* <map name='heroBooper'>
                         <area shape="poly" coords="745,190,731,172,733,167,747,166,758,169,765,174,766,177" onclick="(new Audio('/assets/boop.ogg')).play()" />
                     </map>
                     <img 
@@ -17,7 +17,7 @@ export const HeroSection = () =>
                         width={1000} height={425}
                         alt="An image of an anthropomorphic fox character waving at you, in front of an abstract aurora background." 
                     />
-                    
+                     */}
                     <div class="content">
                         <div class="title" id="hero-title">
                             <h2>
@@ -55,6 +55,11 @@ export const HeroSection = () =>
                                 </div>
                             </a>
                         </div>
+                    </div>
+
+                    <div class="taylor">
+                        <img src="/assets/img/hero/taylor-wave-color.webp" width={871} height={848} />
+                        <div class="ether" />
                     </div>
                 </div>
             </Window>

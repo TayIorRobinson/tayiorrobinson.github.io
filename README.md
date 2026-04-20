@@ -5,9 +5,9 @@ Taylor's website
 
 - [x] contact links  
 - [x] 88x31s
-- [ ] fix the site on mobile
+- [x] fix the site on mobile
   - [x] fix the padding to the right side
-  - [ ] fix the home page banner getting squished
+  - [x] fix the home page banner getting squished
 - [x] integrate notes/blog
 - [x] navigation on the top right 
 - [ ] art gallery on fursona page

@@ -27,7 +27,7 @@ type EightyEightThirtyOne = {
 }
 const EightyEightThirtyOne = ({ link, img, title, rel, fallback }: EightyEightThirtyOne) =>
     <a href={link} target="_blank" rel={"noopener " + rel} class="eightyeightthirtyone">
-        <img width={88} height={31} src={`/assets/88x31/${img}`} alt={title} title={title} onerror={fallback && `this.src = '/assets/88x31/${img.replace(/\..+$/, '.'+fallback)}'`} />
+        <img width={88} height={31} src={`/assets/88x31/${img}`} loading="lazy"  alt={title} title={title} onerror={fallback && `this.src = '/assets/88x31/${img.replace(/\..+$/, '.'+fallback)}'`} />
     </a>
 
 
