@@ -14,7 +14,7 @@ export default function (data) {
         <div class="content-row">
             <Window focused>
                 <Ambox icon={<img src="/assets/img/icons/warning-48.png" width={48} height={48} />}>
-                    asdf
+                    <b>This page is currently work in progress.</b> Content here may be missing, incomplete or incorrect. This page will change over time.
                 </Ambox>
             </Window>
         </div>
