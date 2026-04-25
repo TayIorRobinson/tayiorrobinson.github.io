@@ -1,0 +1,14 @@
+.ambox {
+    background: light-dark(#F8F9FA, invert(#F8F9FA));
+    border-left: 10px solid #fc3;
+    display: flex;
+    align-items: center;
+    gap: 0.25em;
+    > .icon {
+        padding: 2px 0 2px 0.5em;
+        margin-right: 12px;
+    }
+    > .content {
+        padding: 0.25em;
+    } 
+}
