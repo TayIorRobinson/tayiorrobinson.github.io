@@ -29,7 +29,7 @@ export default function (data) {
             <Window focused titlebar={<WindowTitlebar iconSrc="/assets/img/icons/notepad.png" caption="internet-vulpine-v3_1.txt - Notepad" />}>
                 <div class="prose hasPaw">
                     <h1>Taylor (aka. eth0fox)</h1>
-                    <i class="species">Vulpes packetus (Internet Fox)</i>
+                    <i class="species">Vulpes vulpes packetus (Internet Fox)</i>
                     <p>
                         The <b>internet fox</b> (<b><i>v. v. packetus</i></b>) is a subspecies of the <a href="https://en.wikipedia.org/wiki/Red_fox">red fox</a> native to the internet. 
                         The internet fox is distinguished by the large, glowing, purple, starry, grid covered, transparent 'ether' area of fur covering almost the entire left half of their body.<br/>
