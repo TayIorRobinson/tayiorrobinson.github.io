@@ -12,7 +12,7 @@ export function data() {
 }
 
 export default function (data) {
-    return <PageTemplate data={data} title="Page Not Found" stylesheets={[ '404' ]}>
+    return <PageTemplate data={data} title="Page Not Found" stylesheets={[ '404' ]}>{() => <>
         <MainNav />
         <div class="content-row">
             <Window focused titlebar={<WindowTitlebar caption="Location is not available" />}>
@@ -32,5 +32,5 @@ export default function (data) {
             </Window>
             
         </div>
-    </PageTemplate>
+    </>}</PageTemplate>
 }

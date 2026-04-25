@@ -11,7 +11,7 @@ import { LinksSection } from "./_includes/sections/links.tsx";
 
 
 export default function (data) {
-    return <PageTemplate  data={data} stylesheets={['index']}>
+    return <PageTemplate  data={data} stylesheets={['index']}>{() =><>
         <MainNav />
         <HeroSection/>
         
@@ -77,5 +77,5 @@ export default function (data) {
         </div>
         <ContactsSection/>
         <LinksSection />
-    </PageTemplate>
+    </>}</PageTemplate>
 }

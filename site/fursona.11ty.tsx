@@ -1,4 +1,5 @@
 import { Fragment, jsx } from "jsxxg";
+import { Ambox } from "./_includes/components/ambox.tsx";
 import { MainNav } from "./_includes/components/mainNav.tsx";
 import { PageTemplate } from "./_includes/components/pageTemplate.tsx";
 import { Window, WindowTitlebar } from "./_includes/components/window.tsx";
@@ -6,7 +7,7 @@ import { Window, WindowTitlebar } from "./_includes/components/window.tsx";
 
 
 export default function (data) {
-    return <PageTemplate data={data} title="The Internet Vulpine" class="fursonaPage" stylesheets={[ 'fursona' ]}>
+    return <PageTemplate data={data} title="The Internet Vulpine" class="fursonaPage" stylesheets={[ 'fursona' ]}>{() => <>
         <MainNav />
         
         <div class="content-row">
@@ -34,5 +35,5 @@ export default function (data) {
             </Window>
             
         </div>
-    </PageTemplate>
+    </>}</PageTemplate>
 }

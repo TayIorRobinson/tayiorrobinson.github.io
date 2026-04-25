@@ -5,7 +5,7 @@ import { Window, WindowTitlebar } from "../_includes/components/window.tsx";
 
 
 export default function (data) {
-    return <PageTemplate title="Taylor's Notes" data={data}>
+    return <PageTemplate title="Taylor's Notes" data={data}>{() => <>
         <MainNav />
         
         <div class="content-row">
@@ -31,5 +31,5 @@ export default function (data) {
             </Window>
             
         </div>
-    </PageTemplate>
+    </>}</PageTemplate>
 }
