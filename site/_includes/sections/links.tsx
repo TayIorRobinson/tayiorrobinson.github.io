@@ -52,6 +52,11 @@ export const LinksSection = () =>
                             link="https://fediring.net"
                             prev="https://fediring.net/previous?host="
                             next="https://fediring.net/next?host=" />
+                        <Webring 
+                            title="The Hacker Webring" 
+                            link="https://ring.acab.dev"
+                            prev="http://ring.acab.dev/prev/0981a302fc#"
+                            next="http://ring.acab.dev/next/0981a302fc#" />
                     </div>
                     <h2>Other cool people</h2>
                     <p>Here's the badges of some people I think are cool :D - feel free to steal my own badge for your own site, or if I know you, and I haven't got your badge, let me know!</p>
