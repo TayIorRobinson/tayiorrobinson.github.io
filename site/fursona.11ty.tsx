@@ -9,7 +9,19 @@ import { Window, WindowTitlebar } from "./_includes/components/window.tsx";
 export default function (data) {
     return <PageTemplate data={data} title="The Internet Vulpine" class="fursonaPage" stylesheets={[ 'fursona' ]}>{() => <>
         <MainNav />
-        
+
+
+        <div class="content-row slim" id="version-selector">
+            <label>
+                <b>Version selector:</b>
+                <select onchange="location.href = event.target.value" autocomplete="off">
+                    <option selected value="">v3.1 (2025)</option>
+                    <option value="https://taylor.robins.one/">v2 (2021)</option>
+                    <option disabled>v1 (2017)</option>
+                </select>
+            </label>
+        </div>
+
 
         <div class="content-row">
             <Window focused>
