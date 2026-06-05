@@ -16,6 +16,7 @@
 
 :root {
   color-scheme: light dark;
+  --border: light-dark(#ccc, #333);
 }
 
 
@@ -79,7 +80,7 @@ button, input, select {
 }
 
 hr {
-  border: 1px solid light-dark(#ccc, #333);
+  border: 1px solid var(--border);
 }
 a {
   color: inherit;

@@ -1,0 +1,31 @@
+.tags {
+    display: inline-block;
+    float:right;
+    .tag {
+        display: inline-block;
+        font-size: 80%;
+        border: 1px solid var(--border);
+        border-radius: 3px;
+        padding-inline: 0.6ch;
+        padding-block-start: -0.5em;
+        margin-inline-start: 0.5ch;
+    }
+}
+.notes-list {
+    h2 {
+        margin-block-end: 0.5em;
+    }
+    h3 {
+        margin-block-start: 0;
+        margin-block-end: 0.2em;
+    }
+    table {
+        width: 100%;
+    }
+    .scraps-list {
+        time {
+            font-size: 80%;
+            font-variant: small-caps;
+        }
+    }
+}
