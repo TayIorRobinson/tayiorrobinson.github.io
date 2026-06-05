@@ -9,6 +9,10 @@ tags:
   - users
   - macos
 title: How to commit as multiple identities on macOS
+warning: |-
+  This article is from 2022 - what I suggest in here doesn't seem to work with newer OS releases.
+
+  Nowadays I'd recommend just ensuring you set the `user.name` and `user.email` for each repository, and using a SSH remote that's configured to use a seperate SSH key, see https://superuser.com/questions/232373/how-to-tell-git-which-private-key-to-use
 ---
 ### working title: how not to deadname yourself on git.
 As a trans individual, it is essential (at least for me) to have multiple identities, and because one of my things I know how to do is write code, and sometimes I like to put said code on GitHub, and all git commits are linked to a name and an email address (which gets resolved to a GitHub account) I’d rather not cross the streams (most of the time ;) ifykyk) and put code attributed to Taylor on my ‘original’ GH acc, and vice versa.
