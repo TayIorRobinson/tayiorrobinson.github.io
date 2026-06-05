@@ -40,25 +40,35 @@ export default function (data) {
         <div class="content-row">
             <Window focused titlebar={<WindowTitlebar iconSrc="/assets/img/icons/notepad.png" caption="internet-vulpine-v3_1.txt - Notepad" />}>
                 <div class="prose hasPaw">
-                    <h1>Taylor (aka. eth0fox)</h1>
-                    <i class="species">Vulpes vulpes packetus (Internet Fox)</i>
                     <p>
-                        The <b>internet fox</b> (<b><i>v. v. packetus</i></b>) is a subspecies of the <a href="https://en.wikipedia.org/wiki/Red_fox">red fox</a> native to the internet. 
-                        The internet fox is distinguished by the large, glowing, purple, starry, grid covered, transparent 'ether' area of fur covering almost the entire left half of their body.<br/>
-                        Depending on how the ether area is observed, it can take on one of two projections:<br/>
-                        <ul>
-                            <li>
-                                <b>A 3-dimentional projection</b>, where the ether takes on an <a href="https://en.wikipedia.org/wiki/Equirectangular_projection" target="_blank">equirectangular projection</a>, 
-                                similar to as if you were to look out from inside the <a href="https://emojipedia.org/globe-with-meridians" target="_blank">🌐 globe with meridians</a> symbol, commonly used to represent the internet.
-                            </li>
-                            <li>
-                                <b>A 2-dimentional, flat projection</b>, where the ether is laid flat across the entire page, not being affected by movement or bending of limbs, as if you were to place a printout of the grid underneath
-                                the page, and cut out parts of the paper where the ether is shown.
-                            </li>
-                        </ul>
+                        <h1>The Internet Vulpine</h1>
+                        My fursona, the Internet Vulpine, is an <b>internet fox</b> (<b><i>v. v. packetus</i></b>) which is a subspecies of the <a href="https://en.wikipedia.org/wiki/Red_fox">red fox</a> native to 
+                        the internet. 
+                        <br/>
+                        The idea for basing my fursona's design in networking & internet came from a love for the internet as a whole, the possibilities unlocked, the people it allowed me to meet, not to mention
+                        the Furry community existing mostly on and largly because of the internet, combined with me just being a general nerd, fascinated with networking & computers (like, I am a qualified network
+                        engineer) it seemed like a natural fit.
+                        <br/>
+                        Unlike previous iterations of my fursona, who were more seperate characters, I view the Internet Vulpine as more of just a representation of myself. Primarily because while it is kinda fun
+                        to give reasons for why they are and make them more realistic/relatable by coming up with a in-universe explanation for any changes. For example, my old fursona, I, and thus by extension
+                        the Internet Vulpine are all trans, and while I have not, my fursona(s) have canonically had HRT & surgeries, with my old fursona I would say they actually took meds & had someone slice them
+                        open, which, yes, is more realistic & relatable, which can be nice, it is also less funny than saying, the Internet Vulpine's HRT was editing their blend shapes & their surgery was performed 
+                        in Blender's Edit mode (even if some of there are details of their biology (which I will not go into here), that are intended to be mostly rooted in actual human biology)
+                    </p>
+
+                    <p>
+                        <h1 id="ether">Ether</h1>
+
+                        The ether, named after <a href="https://en.wikipedia.org/wiki/Ethernet#History">Ethernet</a>, which in turn was named after the historical idea in which that light was propagated through 
+                        a medium called the <a href="https://en.wikipedia.org/wiki/Luminiferous_aether">ether or luminiferous aether</a> that is omnipresent throughout the universe.
+                        <br/>
+                        In this context, the ether refers to a pseudophysical representation of the internet, which is the world the Internet Vulpine lives within. 
+                        <br/>
+                        Visually when viewed from the inside, the ether takes on a bright purple, red & pink appearance filled with white stars, and a repeating grid pattern. Depending on how the ether is observed
+                        this grid may appear as a 2 dimentional flat grid, or a grid projected  in <a href="https://en.wikipedia.org/wiki/Equirectangular_projection">equirectangular projection</a>, resembling the 
+                        <a href="https://emojipedia.org/globe-with-meridians">🌐 globe with meridians</a> symbol commonly used to refer to the internet, which depicts the ether, which has  a blue appearance viewed
+                        from the outside,
                         
-                        Physically, the fur on this part of the body, while soft like the rest of the fur, has the optical charactericistics of <a href="https://en.wikipedia.org/wiki/Multi-mode_optical_fiber" target="_blank">multi-mode optical fibre</a>, 
-                        so if you ever need a uselessly short fibre link, and have the equipment to terminate with a connector, give 'em a rub and see if they shed.
                     </p>
 
                 </div>
