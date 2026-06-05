@@ -1,0 +1,5 @@
+{
+  "folder": "notes",
+  "template": "_includes/note-template",
+  "format": "YYYY-MM-DD-"
+}

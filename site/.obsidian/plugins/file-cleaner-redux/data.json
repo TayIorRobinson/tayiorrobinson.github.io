@@ -1,0 +1,29 @@
+{
+  "deletionDestination": "system",
+  "obsidianTrashCleanupAge": -1,
+  "notifications": "showAll",
+  "excludeInclude": 1,
+  "excludedFolders": [
+    "assets/notes"
+  ],
+  "attachmentsExcludeInclude": 1,
+  "attachmentExtensions": [
+    "*"
+  ],
+  "deletionConfirmation": true,
+  "runOnStartup": true,
+  "removeFolders": true,
+  "ignoredFrontmatter": [],
+  "ignoreAllFrontmatter": false,
+  "codeblockTypes": [],
+  "deleteEmptyMarkdownFiles": true,
+  "deleteEmptyMarkdownFilesWithBacklinks": false,
+  "fileAgeThreshold": 0,
+  "closeNewTabs": false,
+  "deleteEmptyFileOnClose": false,
+  "ExternalPlugins": {
+    "Excalidraw": {
+      "TreatAsAttachments": false
+    }
+  }
+}

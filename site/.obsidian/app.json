@@ -1,0 +1,18 @@
+{
+  "userIgnoreFilters": [
+    "_includes/",
+    "css/",
+    "well-known/",
+    "assets/img/",
+    "assets/js/",
+    "assets/88x31/",
+    "assets/fonts/",
+    "assets/compat/"
+  ],
+  "attachmentFolderPath": "assets/notes",
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "strictLineBreaks": true
+}

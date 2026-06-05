@@ -22,7 +22,20 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(IdAttributePlugin);
 	eleventyConfig.addPlugin(syntaxHighlight);
-	eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItFootnote));
+	eleventyConfig.amendLibrary("md", (mdLib) => {
+		var oldNormalizeLink = mdLib.normalizeLink;
+		mdLib.normalizeLink = (url) => {
+			try {
+				const FAKE_ORIGIN = "https://fake.invalid";
+				let parsed = new URL(url, FAKE_ORIGIN);
+				if (parsed.origin == FAKE_ORIGIN) 
+					url = parsed.pathname + parsed.search + parsed.hash;
+				
+			} catch(e) {}
+			return oldNormalizeLink(url);
+		}
+		mdLib.use(markdownItFootnote)
+	});
 
 	const feedConfig = {
 		collection: {

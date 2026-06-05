@@ -2,3 +2,8 @@
 .DS_Store
 node_modules
 _site
+.trash
+**/.obsidian/workspace.json
+**/.obsidian/plugins/**/*.js
+**/.obsidian/plugins/**/*.css
+**/.obsidian/plugins/**/manifest.json

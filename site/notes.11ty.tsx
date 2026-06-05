@@ -1,7 +1,7 @@
 import { Fragment, jsx } from "jsxxg";
-import { MainNav } from "../_includes/components/mainNav.tsx";
-import { PageTemplate } from "../_includes/components/pageTemplate.tsx";
-import { Window, WindowTitlebar } from "../_includes/components/window.tsx";
+import { MainNav } from "./_includes/components/mainNav.tsx";
+import { PageTemplate } from "./_includes/components/pageTemplate.tsx";
+import { Window, WindowTitlebar } from "./_includes/components/window.tsx";
 
 
 export default function (data) {
