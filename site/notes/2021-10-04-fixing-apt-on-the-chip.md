@@ -1,6 +1,6 @@
 ---
 layout: post
-category: linux
+category: posts
 tags:
   - notes
   - debian
@@ -9,6 +9,7 @@ tags:
   - pocketchip
   - ntc
   - nextthingco
+  - linux
 title: fixing apt on the C.H.I.P.
 ---
 

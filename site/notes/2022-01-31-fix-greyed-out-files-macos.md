@@ -1,9 +1,10 @@
 ---
 layout: post
-category: macos
+category: scraps
 tags:
-    - notes
-    - finder
+  - notes
+  - finder
+  - macos
 title: How to fix "Copying x has paused"/greyed out folders on macOS Finder.
 ---
 macOS will handily let you resume a failed/interrupted copy operation, however, if you want to just stop it and get access to the folder. macOS doesn't let you do this, even if the files are there on disk.

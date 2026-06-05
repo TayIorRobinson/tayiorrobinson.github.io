@@ -1,10 +1,11 @@
 ---
 layout: post
-category: macos
+category: scraps
 tags:
   - notes
-  - time machine
   - apfs
+  - macos
+  - time-machine
 title: putting files on the time machine drive on Monterey
 ---
 

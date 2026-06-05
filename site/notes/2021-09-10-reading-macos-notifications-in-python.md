@@ -1,11 +1,12 @@
 ---
 layout: post
-category: macos
+category: scraps
 tags:
-    - notes
-    - sqlite
-    - python
-    - notifications
+  - notes
+  - sqlite
+  - python
+  - notifications
+  - macos
 title: Reading macOS Notifications in Python
 ---
 

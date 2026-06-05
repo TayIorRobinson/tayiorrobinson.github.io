@@ -1,13 +1,14 @@
 ---
 layout: post
-category: macos
+category: scraps
 tags:
-    - notes
-    - plutil
-    - plist
-    - settings
-    - terminal
-    - preferences
+  - notes
+  - plutil
+  - plist
+  - settings
+  - terminal
+  - preferences
+  - macos
 title: Reading macOS Preferences (such as theme) from the Terminal
 ---
 

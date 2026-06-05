@@ -1,11 +1,11 @@
 ---
 layout: post
-category: macos
+category: scraps
 tags:
-    - notes
-    - bettertouchtool
-    - music
-    - media keys
+  - notes
+  - bettertouchtool
+  - music
+  - macos
 title: Force macOS to send media key events to Apple Music/Spotify
 ---
 

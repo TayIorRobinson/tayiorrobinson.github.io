@@ -1,9 +1,10 @@
 ---
 layout: post
-category: hardware
+category: scraps
 tags:
-    - notes
-    - raspberry pi
+  - notes
+  - hardware
+  - raspberry-pi
 title: Raspberry Pi Debug Probe Test Point Pinout
 ---
 
@@ -15,7 +16,7 @@ Sure, at £10 it's relatively expensive to the £4 UART probes you can get off A
 
 The Debug Probe has a set of test points on the bottom and holes for a 3 pin connector connected to internal points on the board. The problem is they're not documented very well.
 
-![lrg](https://github.com/eth0fox/notes/assets/74316107/081be4cf-1d6a-4c64-809e-b92333ef6fd4)
+![](assets/notes/rpi-debug-probe-pinout.png)
 
 ### 3 pin connector
 There's a unsoldered space for a 3 pin connector. From top to bottom, they're connected to:

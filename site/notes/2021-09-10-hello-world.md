@@ -1,8 +1,8 @@
 ---
 layout: post
-category: meta
-tags: 
-    - notes
+category: posts
+tags:
+  - notes
 title: Hello, world!
 ---
 

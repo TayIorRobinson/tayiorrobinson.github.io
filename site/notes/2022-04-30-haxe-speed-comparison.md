@@ -1,8 +1,9 @@
 ---
 layout: post
-category: haxe
+category: scraps
 tags:
-    - notes
+  - notes
+  - haxe
 title: how fast is Haxe?
 ---
 Haxe for those who don't know is a programming language that doesn't commonly run as itself. It usually gets transpiled to other languages such as C++, JavaScript or C#.

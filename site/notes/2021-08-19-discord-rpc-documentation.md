@@ -1,11 +1,11 @@
 ---
 layout: post
-category: protocols
+category: scraps
 tags:
-    - notes
-    - discord
-    - ipc
-    - protocols
+  - notes
+  - discord
+  - ipc
+  - protocols
 title: Discord RPC Protocol Documentation
 ---
 
