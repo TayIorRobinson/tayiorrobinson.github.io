@@ -33,7 +33,7 @@ export default function (data) {
 
         <div class="content-row">
             <Window focused titlebar={<WindowTitlebar iconSrc="/assets/img/icons/picture.png" caption="internet-vulpine-reference.png - Photo Viewer" />}>
-                <img src="/assets/taylor-ref.webp" class="ref-image"></img>
+                <img src="/assets/ref.webp" class="ref-image"></img>
             </Window>
             
         </div>

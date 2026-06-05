@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/pyrox0/fursona-schema/refs/heads/main/schema-07.json",
   "sonas": [
     {
-        "name": "Taylor",
+        "name": "The Internet Vulpine",
         "pronouns": "they/them",
         "gender": null,
-        "species": "Red fox",
+        "species": "Internet red fox (vulpes vulpes packetus)",
         "description": "the fox inside your ethernet cable",
-        "ref": "https://eth0fox.net/assets/taylor-ref.webp",
+        "ref": "https://eth0fox.net/assets/ref.webp",
         "refAttribution": "Masculine Canine model from https://juliawinterpaw.gumroad.com/",
         "avatar": "https://eth0fox.net/assets/drox-pfpcrop.png",
         "avatarAlt": "A pixel-art style head-shot drawing of an anthropomorphic fox doing the peace sign with their right paw",

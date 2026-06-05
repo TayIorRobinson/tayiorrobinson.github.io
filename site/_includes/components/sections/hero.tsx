@@ -51,8 +51,8 @@ export const HeroSection = () =>
                         </div>
                     </div>
 
-                    <div class="taylor">
-                        <img src="/assets/img/hero/taylor-wave-color.webp" usemap="#heroBooper"  width={871} height={848} />
+                    <div class="internetvulpine">
+                        <img src="/assets/img/hero/wave-color.webp" usemap="#heroBooper"  width={871} height={848} />
                         <div class="ether" />
                     </div>
                 </div>
