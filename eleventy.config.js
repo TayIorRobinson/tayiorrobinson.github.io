@@ -21,8 +21,14 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({'./site/well-known': '.well-known'});
 
 	eleventyConfig.addPlugin(IdAttributePlugin);
-	eleventyConfig.addPlugin(syntaxHighlight);
+	eleventyConfig.addPlugin(syntaxHighlight, {
+		codeAttributes: {
+			class: ({ language }) => `language-${language} codeblock`,
+		}
+	});
 	eleventyConfig.amendLibrary("md", (mdLib) => {
+		// obsidian generates links that are absolute paths, but without the leading slash wich causes issues. 
+		// normalise to be actually abolute paths
 		var oldNormalizeLink = mdLib.normalizeLink;
 		mdLib.normalizeLink = (url) => {
 			try {

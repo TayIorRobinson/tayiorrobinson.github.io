@@ -29,11 +29,9 @@
  * --syntax-cursor-line: hsla(220, 100%, 80%, 0.04);
  */
 
-code,
+code:not(.codeblock),
 pre[class*="language-"] {
-	background: hsl(220, 13%, 18%);
-	color: hsl(220, 14%, 71%);
-	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+
 	font-family: "Space Mono", "JetBrains Mono", "Roboto Mono", "Cascadia Code", Menlo, Consolas, "DejaVu Sans Mono", monospace;
 	direction: ltr;
 	text-align: left;
@@ -47,41 +45,36 @@ pre[class*="language-"] {
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
-	&[class*="language-*"] {
-		white-space: pre;
+	white-space: pre;
+
+	&::-moz-selection, & *::-moz-selection,
+	&::selection, & *:selection {
+		background: hsl(220, 13%, 28%);
+		color: inherit;
+		text-shadow: none;
 	}
 }
 
-/* Selection */
-code[class*="language-"]::-moz-selection,
-code[class*="language-"] *::-moz-selection,
-pre[class*="language-"] *::-moz-selection {
-	background: hsl(220, 13%, 28%);
-	color: inherit;
-	text-shadow: none;
-}
-
-code[class*="language-"]::selection,
-code[class*="language-"] *::selection,
-pre[class*="language-"] *::selection {
-	background: hsl(220, 13%, 28%);
-	color: inherit;
-	text-shadow: none;
-}
-
-/* Code blocks */
 pre[class*="language-"] {
 	padding: 1em;
 	margin: 0.5em 0;
 	overflow: auto;
 	border-radius: 0.3em;
-}
 
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-	padding: 0.2em 0.3em;
-	border-radius: 0.3em;
-	white-space: normal;
+	background: hsl(220, 13%, 18%);
+	color: hsl(220, 14%, 71%);
+	box-shadow: inset  0px 0px 2px rgba(0, 0, 0, 0.5);
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+code:not(.codeblock) {
+	border-radius: 0.2em;
+	padding-inline: 0.3em;
+	color: inherit;
+	box-shadow: inset  0px 0px 4px rgba(0, 0, 0, 0.2);
+	background: light-dark(
+		hsl(220, 14%, 91%),
+		hsl(220, 13%, 18%)
+	);
 }
 
 /* Print */
