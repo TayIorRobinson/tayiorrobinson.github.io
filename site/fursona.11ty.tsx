@@ -48,12 +48,6 @@ export default function (data) {
                         The idea for basing my fursona's design in networking & internet came from a love for the internet as a whole, the possibilities unlocked, the people it allowed me to meet, not to mention
                         the Furry community existing mostly on and largly because of the internet, combined with me just being a general nerd, fascinated with networking & computers (like, I am a qualified network
                         engineer) it seemed like a natural fit.
-                        <br/>
-                        Unlike previous iterations of my fursona, who were more seperate characters, I view the Internet Vulpine as more of just a representation of myself. Primarily because while it is kinda fun
-                        to give reasons for why they are and make them more realistic/relatable by coming up with a in-universe explanation for any changes. For example, my old fursona, I, and thus by extension
-                        the Internet Vulpine are all trans, and while I have not, my fursona(s) have canonically had HRT & surgeries, with my old fursona I would say they actually took meds & had someone slice them
-                        open, which, yes, is more realistic & relatable, which can be nice, it is also less funny than saying, the Internet Vulpine's HRT was editing their blend shapes & their surgery was performed 
-                        in Blender's Edit mode (even if some of there are details of their biology (which I will not go into here), that are intended to be mostly rooted in actual human biology)
                     </p>
 
                     <p>
