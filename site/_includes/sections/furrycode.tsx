@@ -1,6 +1,6 @@
 import { Fragment, jsx } from "jsxxg";
 
-const FURRYCODE = "FCF3acdfmrsw A- C-> D H++ M++ P+ R T+ W- Z- Sh+++ RLRLCT a cm+++$ d++ e+ f++ h*>-- iwf+++ j p--- sm++";
+const FURRYCODE = "FCF3acdfmrsw A- C>+ D H++ M++ P+ R T+ W- Z Sp+++ RLRLCT a cm+++$ d++ e+ f++ h*>-- iwf+++ j p--- sm++";
 
 export const Furrycode = () => <>
     <code>{FURRYCODE}</code>
@@ -33,7 +33,7 @@ export const Furrycode = () => <>
                 <tr>
                     <th><b>C</b>onventions</th>
                     <td>
-                        Never been to one, but <del>may do so in future</del> (<code>-</code>), but plan on attending (CFz (Birmingham UK, May 2026), EF30 (Hamburg DE, August 2026)) (<code>&gt;</code>)
+                        I've been to one (CFz 2026), but plan on attending many more (currently: EF30 (Hamburg DE, August 2026)) (<code>&gt;+</code>)
                     </td>
                 </tr>
                 <tr>
@@ -96,7 +96,7 @@ export const Furrycode = () => <>
                         <b>Z</b>ines
                     </th>
                     <td>
-                        Not really interested (<code>-</code>)
+                        I have a few (but only as PDFs in my Downloads folder)
                     </td>
                 </tr>
                 <tr>
