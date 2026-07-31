@@ -76,6 +76,7 @@ export const LinksSection = () =>
                             { img: "atapi.webp", fallback: 'gif', link: "https://atapi.space/", title: "atapi"},
                             { img: "j4.avif", link: "https://j4.lc", title: "J4", rel: "acquaintance"},
                             { img: "kaizo.png", link: "https://keithhacks.cyou", title: "Kaizo Hellhound", rel: "friend"},
+                            { img: "nullobsi.webp", fallback: 'png', link: "https://nullob.si", title: "nullobsi", rel: "friend" },
                         ]} />
                     </div>
                     <h2>Miscellaneous badges</h2>
