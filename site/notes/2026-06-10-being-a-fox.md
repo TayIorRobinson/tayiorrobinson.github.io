@@ -27,7 +27,7 @@ and also states,
 
 This, along with a general preconception I have of therians often times wanting to reject being human, immediately disqualifies the term for me, because while I didn't wake up one day and choose to be like this, and I sure as hell don't remember being asked if I wanted to be autistic (this will become more relevant later), I _can_ point to the decision I made in 2017 to become a furry, and for my fursona to be a fox. This, while did not directly lead to me referring to myself as a fox (except when used as short hand to mean 'my fursona is a fox' as is common amongst furries), it definitely set the stage and prepared a trap that once set off would lead me falling down a rabbit hole so deep, it would get the original inspiration for my fursona, Nicholas Wilde from Zootopia, excited.
 
-This is kinda frustrating as the other popular, easy labels like fox/pup don't get the idea that _I_ am a fox, and that I am a fox _all the time_, and it runs to my core. ΘΔ is two codepoints. This entire blog post is a whole lot more.
+This is kinda frustrating as the other popular, easy labels that I can confidently say I identify with like furry or pup don't get the idea that _I_ am a fox, it is not roleplay, and that I am a fox _all the time_, and it runs to my core. ΘΔ is two codepoints. This entire blog post is a whole lot more.
 ## A Video Essay About Furry Porn Changed My Entire Brain Chemistry And Made Me Autistic And I'm Not Even Joking
 
 [https://youtu.be/ws9g3igw51s](https://youtu.be/ws9g3igw51s). There it is. There's the link. Go watch that. It basically makes much of the same points, is a hell of a lot more well thought out, is much more entertaining & is actually somewhat approachable instead of just me rambling on about my life story.
